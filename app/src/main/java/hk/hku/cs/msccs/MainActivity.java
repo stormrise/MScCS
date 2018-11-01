@@ -42,19 +42,15 @@ public class MainActivity extends AppCompatActivity {
     private BottomNavigationView navigation;
     private ViewPager mVp;
 
-    private List<Guide_Content> Home_text;
-    private List<Guide_Content> gu_button;
-    private List<Guide_Content> card;
+    private List<Guide_Content> Home_text=new ArrayList<>();
+    private List<Guide_Content> gu_button=new ArrayList<>();
+    private List<Guide_Content> card=new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initView();
-
-        Home_text=new ArrayList<>();
-        gu_button=new ArrayList<>();
-        card=new ArrayList<>();
 
         ConnectivityManager connMgr = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo networkInfo = connMgr.getActiveNetworkInfo();//判断网络连接是否正常
@@ -76,9 +72,7 @@ public class MainActivity extends AppCompatActivity {
 //                        String hometext1 = Home_text.get(1).getTitle()+Home_text.get(1).getText();
 //                        textView.setText(hometext1);
 //                        Glide.with(imageView.getContext()).load(CSURL+card.get(1).getPic()).into(imageView);
-
-
-                        break;
+                       break;
                     default:
                         break;
                 }
