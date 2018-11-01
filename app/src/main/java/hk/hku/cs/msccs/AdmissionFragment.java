@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 
 
 public class AdmissionFragment extends Fragment {
-
+    private final static String TAG = "Admission";
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
