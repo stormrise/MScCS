@@ -1,15 +1,20 @@
 package hk.hku.cs.msccs;
 
 import android.annotation.SuppressLint;
+import android.app.Dialog;
 import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.view.ViewPager;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
@@ -122,9 +127,11 @@ public class MainActivity extends AppCompatActivity {
         switch (item.getItemId()){
             case R.id.call:
                 Toast.makeText(this,"click call",Toast.LENGTH_SHORT).show();
+                MakeCall().show();
                 break;
             case R.id.mail:
                 Toast.makeText(this,"click mail",Toast.LENGTH_SHORT).show();
+                MakeMail().show();
                 break;
             default:
         }
@@ -171,6 +178,53 @@ public class MainActivity extends AppCompatActivity {
         adapter.addFragment(new OtherFragment());
         viewPager.setAdapter(adapter);
     }
+
+
+    public Dialog MakeCall() {
+        // Use the Builder class for convenient dialog construction
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Contact The MSc Programme Office");
+        builder.setMessage("Want Call (852) 3917 1828 ?")
+                .setPositiveButton("YES", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        Intent intent = new Intent(Intent.ACTION_DIAL);
+                        Uri data = Uri.parse("tel:+85239171828");
+                        intent.setData(data);
+                        startActivity(intent);
+                    }
+                })
+                .setNegativeButton("NO", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        // User cancelled the dialog
+                        dialog.dismiss();
+                    }
+                });
+        // Create the AlertDialog object and return it
+        return builder.create();
+    }
+    public Dialog MakeMail() {
+        // Use the Builder class for convenient dialog construction
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Contact The MSc Programme Office");
+        builder.setMessage("Want Mail msccs@cs.hku.hk ?")
+                .setPositiveButton("YES", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        Intent intent = new Intent(Intent.ACTION_SENDTO);
+                        Uri data = Uri.parse("mailto:msccs@cs.hku.hk");
+                        intent.setData(data);
+                        startActivity(intent);
+                    }
+                })
+                .setNegativeButton("NO", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        // User cancelled the dialog
+                        dialog.dismiss();
+                    }
+                });
+        // Create the AlertDialog object and return it
+        return builder.create();
+    }
+
     //------------------------------------------爬取页面------------------------------------------------------
     private void getFlow_text(){
         new Thread(new Runnable() {
