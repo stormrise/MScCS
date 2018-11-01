@@ -17,6 +17,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.annotation.GlideModule;
+import com.bumptech.glide.module.AppGlideModule;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -79,6 +81,8 @@ public class HomeFragment extends Fragment {
             }
         };
     }
+
+
 
     //------------------------------------------爬取页面------------------------------------------------------
     private void getFlow_text(){
