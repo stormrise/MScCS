@@ -11,7 +11,9 @@ import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -52,8 +54,8 @@ public class MainActivity extends AppCompatActivity {
         ConnectivityManager connMgr = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo networkInfo = connMgr.getActiveNetworkInfo();//判断网络连接是否正常
         if (networkInfo != null && networkInfo.isConnected()) {
-            //调用新线程进行数据抓取
-            getFlow_text();
+            //调用新线程进行数据抓取 !!!!! 执行方法
+            //getFlow_text();
             Log.d(TAG, "Connect OK");
         }else{
             Toast.makeText(MainActivity.this,"No connection, Please check your network",Toast.LENGTH_SHORT).show();
@@ -81,6 +83,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initView() {
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
         navigation = (BottomNavigationView) findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
         mVp = (ViewPager) findViewById(R.id.vp);
@@ -105,6 +109,26 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.toolbar,menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.call:
+                Toast.makeText(this,"click call",Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.mail:
+                Toast.makeText(this,"click mail",Toast.LENGTH_SHORT).show();
+                break;
+            default:
+        }
+        return true;
     }
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
@@ -177,7 +201,7 @@ public class MainActivity extends AppCompatActivity {
                         String card_url=e.select("div.card-reveal").select("a").attr("href");
                         //System.out.println("title: " + card_title_tmp);
                         //System.out.println("picture_address: "+card_pic);
-                        System.out.println("picture_url: "+card_url);
+                        //System.out.println("picture_url: "+card_url);
                         Guide_Content guide_content=new Guide_Content(card_title_tmp,null,card_pic,card_url);
                         card.add(guide_content);
                         Log.d(TAG, "card add!");

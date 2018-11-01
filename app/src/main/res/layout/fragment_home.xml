@@ -20,36 +20,24 @@
     <ImageView
         android:id="@+id/banner"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="200dp"
         android:src="@android:drawable/btn_dialog"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logo2" />
-
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="16dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="32dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
 
     <android.support.v7.widget.CardView
         android:id="@+id/home_card_view1"
         android:layout_width="180dp"
         android:layout_height="160dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:clickable="true"
         android:foreground="?android:attr/selectableItemBackground"
         app:cardCornerRadius="8dp"
         app:cardElevation="8dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/banner" >
+        app:layout_constraintTop_toBottomOf="@+id/banner">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -78,36 +66,36 @@
         android:id="@+id/home_card_view2"
         android:layout_width="180dp"
         android:layout_height="160dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
         android:clickable="true"
         android:foreground="?android:attr/selectableItemBackground"
         app:cardCornerRadius="8dp"
         app:cardElevation="8dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/banner" >
+        app:layout_constraintTop_toBottomOf="@+id/banner">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-
-        <ImageView
-            android:id="@+id/home_card_view2_image"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="135dp"
-            android:src="@drawable/logo" />
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/home_card_view2_text"
-            android:layout_width="match_parent"
-            android:layout_height="25dp"
-            android:text="Programme Schedule"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="18sp" />
+            <ImageView
+                android:id="@+id/home_card_view2_image"
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:src="@drawable/logo" />
 
-    </LinearLayout>
+            <TextView
+                android:id="@+id/home_card_view2_text"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Programme Schedule"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+        </LinearLayout>
     </android.support.v7.widget.CardView>
 
     <android.support.v7.widget.CardView
@@ -121,29 +109,29 @@
         app:cardCornerRadius="8dp"
         app:cardElevation="8dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/home_card_view1" >
+        app:layout_constraintTop_toBottomOf="@+id/home_card_view1">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-
-        <ImageView
-            android:id="@+id/home_card_view3_image"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="135dp"
-            android:src="@drawable/logo" />
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/home_card_view3_text"
-            android:layout_width="match_parent"
-            android:layout_height="25dp"
-            android:text="Composition Fees"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="18sp" />
+            <ImageView
+                android:id="@+id/home_card_view3_image"
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:src="@drawable/logo" />
 
-    </LinearLayout>
+            <TextView
+                android:id="@+id/home_card_view3_text"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Composition Fees"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+        </LinearLayout>
     </android.support.v7.widget.CardView>
 
     <android.support.v7.widget.CardView
@@ -157,29 +145,29 @@
         app:cardCornerRadius="8dp"
         app:cardElevation="8dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/home_card_view2" >
+        app:layout_constraintTop_toBottomOf="@+id/home_card_view2">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-
-        <ImageView
-            android:id="@+id/home_card_view4_image"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="135dp"
-            android:src="@drawable/logo" />
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/home_card_view4_text"
-            android:layout_width="match_parent"
-            android:layout_height="25dp"
-            android:text="Application Deadlines"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="18sp" />
+            <ImageView
+                android:id="@+id/home_card_view4_image"
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:src="@drawable/logo" />
 
-    </LinearLayout>
+            <TextView
+                android:id="@+id/home_card_view4_text"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Application Deadlines"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+        </LinearLayout>
     </android.support.v7.widget.CardView>
 
 </android.support.constraint.ConstraintLayout>
