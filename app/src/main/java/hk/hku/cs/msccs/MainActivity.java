@@ -201,7 +201,7 @@ public class MainActivity extends AppCompatActivity {
                         String card_url=e.select("div.card-reveal").select("a").attr("href");
                         //System.out.println("title: " + card_title_tmp);
                         //System.out.println("picture_address: "+card_pic);
-                        System.out.println("picture_url: "+card_url);
+                        //System.out.println("picture_url: "+card_url);
                         Guide_Content guide_content=new Guide_Content(card_title_tmp,null,card_pic,card_url);
                         card.add(guide_content);
                         Log.d(TAG, "card add!");

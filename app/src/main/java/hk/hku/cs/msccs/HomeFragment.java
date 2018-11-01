@@ -51,6 +51,7 @@ public class HomeFragment extends Fragment {
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {//equals mainActivity onCreated method
         super.onActivityCreated(savedInstanceState);
+        //UI init must below this class
         bannerImage = (ImageView) getActivity().findViewById(R.id.banner);//add getActivity(). before findViewById
         cardimg1 = (ImageView) getActivity().findViewById(R.id.home_card_view1_image);
         cardimg2 = (ImageView) getActivity().findViewById(R.id.home_card_view2_image);
@@ -64,8 +65,8 @@ public class HomeFragment extends Fragment {
                     case CONNECTED:
                         Log.d(TAG, "Message handled");
                         //UI操作
-//                        String hometext1 = Home_text.get(1).getTitle()+Home_text.get(1).getText();
-//                        textView.setText(hometext1);
+                        Glide.with(bannerImage.getContext()).load("https://www.msc-cs.hku.hk/Media/Default/Slider%20Images/Slider1.jpg").into(bannerImage);
+                        Glide.with(cardimg1.getContext()).load("https://www.msc-cs.hku.hk/Media/Default/ContentImages/brochureLatestFull.jpg").into(cardimg1);
                         Glide.with(cardimg2.getContext()).load(CSURL+card.get(0).getPic()).into(cardimg2);
                         Glide.with(cardimg3.getContext()).load(CSURL+card.get(1).getPic()).into(cardimg3);
                         Glide.with(cardimg4.getContext()).load(CSURL+card.get(2).getPic()).into(cardimg4);
@@ -101,7 +102,6 @@ public class HomeFragment extends Fragment {
                         card.add(guide_content);
                         Log.d(TAG, "card add!");
                     }
-
                     messageHome.what=CONNECTED;//获取数据成功后，调用handler方法更新UI
                     handlerHome.sendMessage(messageHome);
 
