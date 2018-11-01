@@ -155,21 +155,21 @@ public class MainActivity extends AppCompatActivity {
                 try{
                     System.out.println(Thread.currentThread().getName() + ": " + Thread.currentThread().getId());//check thread ID
                     //Jsoup
-                    Document doc=Jsoup.connect("https://www.msc-cs.hku.hk/").get();
+                    Document doc=Jsoup.connect("https://www.msc-cs.hku.hk/").get();  //连接到服务器
                     Elements flow=doc.select("div.container");
                     for(Element e:flow){
-                        String title_flow=e.select("h2").text();
+                        String title_flow=e.select("h2").text();//根据位置读取，flowtext文件
                         String text=e.select("p").text();
                         String detail_url=e.select("a").attr("href");
                         //Log.d(TAG,flow_text);
                         //System.out.println("Title:" + title_flow);
                         //System.out.println("text:"+text);
                         //System.out.println("url:"+ detail_url);
-                        Guide_Content guide_content=new Guide_Content(title_flow,text,null,detail_url);
-                        Home_text.add(guide_content);
+                        Guide_Content guide_content=new Guide_Content(title_flow,text,null,detail_url); //装载
+                        Home_text.add(guide_content);//添加到ArrayList里面
                         Log.d(TAG, "Home_text add!");
                     }
-                    Elements clo=doc.select("div.col.s12");
+                    Elements clo=doc.select("div.col.s12");   //admission下的三个子图
                     for(Element e:clo){
                         String card_title_tmp=e.select("div.card-content").text();
                         //String card_title=card_title_tmp.substring(0,card_title_tmp.length()-9);
@@ -182,7 +182,7 @@ public class MainActivity extends AppCompatActivity {
                         card.add(guide_content);
                         Log.d(TAG, "card add!");
                     }
-                    Elements guide_button=doc.select("a.dropdown-button");
+                    Elements guide_button=doc.select("a.dropdown-button");  //导航栏的信息
                     for(Element e:guide_button){
                         String button_name=e.text();
                         String button_url=e.attr("href");
