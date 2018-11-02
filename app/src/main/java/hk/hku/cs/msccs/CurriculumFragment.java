@@ -1,6 +1,7 @@
 package hk.hku.cs.msccs;
 
 import android.content.Context;
+import android.content.Intent;
 import android.media.Image;
 import android.net.Uri;
 import android.os.Bundle;
@@ -35,6 +36,8 @@ public class CurriculumFragment extends Fragment implements View.OnClickListener
         switch (v.getId()){
             case R.id.curr_view1_img:
                 Toast.makeText(img_card1.getContext(),"You clicked the picture",Toast.LENGTH_SHORT).show();
+                Intent intent_1=new Intent(getContext(),ProOverview.class);
+                startActivity(intent_1);
                 break;
             case R.id.curr_view1_text:
                 Toast.makeText(img_card1.getContext(),"You clicked the text",Toast.LENGTH_SHORT).show();
