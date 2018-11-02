@@ -6,11 +6,13 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.design.card.MaterialCardView;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.CardView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 
@@ -20,7 +22,7 @@ import java.util.List;
 
 import cn.bingoogolapple.bgabanner.BGABanner;
 
-public class HomeFragment extends Fragment {
+public class HomeFragment extends Fragment implements View.OnClickListener{
     //parameters
     private final static String TAG = "HomeActivity";
     private List<Guide_Content> card = new ArrayList<>();
@@ -56,13 +58,27 @@ public class HomeFragment extends Fragment {
 //        Glide.with(cardimg4.getContext()).load(R.drawable.home_application_deadlines).into(cardimg4);
         //initBanner();
 
-        cardimg1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        cardimg1.setOnClickListener(this);
 
-            }
-        });
 
+    }
+
+    @Override
+    public void onClick(View v) {   //点击事件响应
+        switch (v.getId()){
+            case R.id.home_card_view1_image:
+
+                break;
+            case R.id.home_card_view2_image:
+
+                break;
+            case R.id.home_card_view3_image:
+
+                break;
+            case R.id.home_card_view4_image:
+
+                break;
+        }
     }
 
 //    void initBanner(){
