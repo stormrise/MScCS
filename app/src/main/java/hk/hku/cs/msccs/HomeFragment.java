@@ -12,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
@@ -26,9 +27,11 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
     //parameters
     private final static String TAG = "HomeActivity";
     private List<Guide_Content> card = new ArrayList<>();
+    TextView bannerText;
     ImageView cardimg1, cardimg2, cardimg3, cardimg4;
     ImageView bannerImage;
     //BGABanner bannerImage;
+    int count =0;
 
 
     @Override
@@ -46,6 +49,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
         //UI init must below this class
         //add getActivity(). before findViewById
         bannerImage = getActivity().findViewById(R.id.banner);
+        bannerText = getActivity().findViewById(R.id.banner_text);
         cardimg1 = (ImageView) getActivity().findViewById(R.id.home_card_view1_image);
         cardimg2 = (ImageView) getActivity().findViewById(R.id.home_card_view2_image);
         cardimg3 = (ImageView) getActivity().findViewById(R.id.home_card_view3_image);
@@ -58,6 +62,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
         //Glide.with(cardimg4.getContext()).load("https://www.msc-cs.hku.hk/Media/Default/ContentImages/ApplicationDeadlines.jpg").into(cardimg4);
         //initBanner();
 
+        bannerImage.setOnClickListener(this);
         cardimg1.setOnClickListener(this);
 
 
@@ -66,6 +71,18 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
     @Override
     public void onClick(View v) {   //点击事件响应
         switch (v.getId()){
+            case R.id.banner:
+                if(count%2==1){
+                    bannerText.setText("Department of Computer Science 香港大學計算機系");
+                    Glide.with(bannerImage.getContext()).load("https://www.msc-cs.hku.hk/Media/Default/Slider%20Images/Slider1.jpg").into(bannerImage);
+                    count++;
+                }else {
+                    bannerText.setText("Master of Science in Computer Science 計算機科學理科碩士課程");
+                    Glide.with(bannerImage.getContext()).load("https://www.msc-cs.hku.hk/Media/Default/Slider%20Images/Slider_Admission.jpg").into(bannerImage);
+                    count++;
+                }
+
+                break;
             case R.id.home_card_view1_image:
 
                 break;
