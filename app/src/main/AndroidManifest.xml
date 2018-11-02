@@ -22,7 +22,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ProOverview"></activity>
+        <activity android:name=".ProOverview" />
+        <activity android:name=".duration"></activity>
     </application>
 
 </manifest>
