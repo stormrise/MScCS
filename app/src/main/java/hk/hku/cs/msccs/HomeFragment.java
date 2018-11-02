@@ -50,12 +50,12 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
         cardimg2 = (ImageView) getActivity().findViewById(R.id.home_card_view2_image);
         cardimg3 = (ImageView) getActivity().findViewById(R.id.home_card_view3_image);
         cardimg4 = (ImageView) getActivity().findViewById(R.id.home_card_view4_image);
-//        Glide.with(bannerImage.getContext()).load(R.drawable.home_slider1).into(bannerImage);
-//        Glide.with(bannerImage.getContext()).load(R.drawable.home_slider_admission).into(bannerImage);
-//        Glide.with(cardimg1.getContext()).load(R.drawable.home_brochurelatestfull).into(cardimg1);
-//        Glide.with(cardimg2.getContext()).load(R.drawable.home_programme_schedule).into(cardimg2);
-//        Glide.with(cardimg3.getContext()).load(R.drawable.home_programme_fees).into(cardimg3);
-//        Glide.with(cardimg4.getContext()).load(R.drawable.home_application_deadlines).into(cardimg4);
+        //Glide.with(bannerImage.getContext()).load("https://www.msc-cs.hku.hk/Media/Default/Slider%20Images/Slider1.jpg").into(bannerImage);
+        //Glide.with(bannerImage.getContext()).load("https://www.msc-cs.hku.hk/Media/Default/Slider%20Images/Slider_Admission.jpg").into(bannerImage);
+        //Glide.with(cardimg1.getContext()).load("https://www.msc-cs.hku.hk/Media/Default/ContentImages/brochureLatestFull.jpg").into(cardimg1);
+        //Glide.with(cardimg2.getContext()).load("https://www.msc-cs.hku.hk/Media/Default/ContentImages/ProgrammeSchedule.jpg").into(cardimg2);
+        //Glide.with(cardimg3.getContext()).load("https://www.msc-cs.hku.hk/Media/Default/ContentImages/ProgrammeFees.jpg").into(cardimg3);
+        //Glide.with(cardimg4.getContext()).load("https://www.msc-cs.hku.hk/Media/Default/ContentImages/ApplicationDeadlines.jpg").into(cardimg4);
         //initBanner();
 
         cardimg1.setOnClickListener(this);
