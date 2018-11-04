@@ -46,9 +46,13 @@ public class CurriculumFragment extends Fragment implements View.OnClickListener
                 break;
             case R.id.curr_view2_img:
                 Toast.makeText(img_card1.getContext(),"You clicked the picture",Toast.LENGTH_SHORT).show();
+                Intent intent_3=new Intent(getContext(),pro_course.class);
+                startActivity(intent_3);
                 break;
             case R.id.curr_view2_text:
                 Toast.makeText(img_card1.getContext(),"You clicked the text",Toast.LENGTH_SHORT).show();
+                Intent intent_4=new Intent(getContext(),pro_course.class);
+                startActivity(intent_4);
                 break;
             case R.id.curr_view3_img:
                 Toast.makeText(img_card1.getContext(),"You clicked the picture",Toast.LENGTH_SHORT).show();
@@ -62,9 +66,13 @@ public class CurriculumFragment extends Fragment implements View.OnClickListener
                 break;
             case R.id.curr_view4_img:
                 Toast.makeText(img_card1.getContext(),"You clicked the picture",Toast.LENGTH_SHORT).show();
+                    Intent intent_7=new Intent(getContext(),pro_regulation.class);
+                    startActivity(intent_7);
                 break;
             case R.id.curr_view4_text:
                 Toast.makeText(img_card1.getContext(),"You clicked the text",Toast.LENGTH_SHORT).show();
+                Intent intent_8=new Intent(getContext(),pro_regulation.class);
+                startActivity(intent_8);
                 break;
             default:
                 break;

@@ -23,7 +23,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".ProOverview" />
-        <activity android:name=".duration"></activity>
+        <activity android:name=".duration" />
+        <activity android:name=".pro_regulation" />
+        <activity android:name=".pro_course" />
+        <activity android:name=".Alumni"></activity>
     </application>
 
 </manifest>

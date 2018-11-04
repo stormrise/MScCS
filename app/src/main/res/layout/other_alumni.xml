@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/alumni_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/alumni_guide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:background="@android:color/darker_gray"
+            android:text="Home > Other > MSc(CompSc) Alumni Association"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/pro_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:text="MSc(CompSc) Alumni Association"
+            android:textSize="32dp"
+            android:textColor="#050404"
+            android:textStyle="bold|italic"
+            />
+        <ImageView
+            android:id="@+id/alumni_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"/>
+        <TextView
+            android:id="@+id/alumni_content_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:singleLine="false"
+            android:text="HKU is a journey, not a destination. When you left HKU, you are not alone for the rest of your life because you have the alumni association, your powerful backing forever."
+            android:textSize="20dp"
+            android:textColor="#050404"
+            android:background="@android:color/background_light"
+            android:gravity="left"
+            />
+
+        <TextView
+            android:id="@+id/alumni_content_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:singleLine="false"
+            android:text="The MSc(CompSc) Alumni Association strengthens the bonding and communication among our graduates, facilitates resources sharing and thus fulfills the responsibilities of being an HKU alumni. We aim at practicing the motto Sapience And Virtue, working in unity, helping each other, contributing to our alma mater and serving the community."
+            android:textSize="20dp"
+            android:textColor="#050404"
+            android:background="@android:color/background_light"
+            android:gravity="left"
+            />
+
+        <TextView
+            android:id="@+id/alumni_content_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:singleLine="false"
+            android:text="Our Alumni Association is not only the heritage of HKU, but also the wealth throughout our whole lives. It actively recruits not just new graduates each year. It also invites new and current students to join the big family before their graduation. Currently, we have bases throughout China, including Hong Kong, Beijing, Shanghai, Shenzhen and Chengdu. Every student who has studied the MSc(CompSc) programme can find their own home."
+            android:textSize="20dp"
+            android:textColor="#050404"
+            android:background="@android:color/background_light"
+            android:gravity="left"
+            />
+        <TextView
+            android:id="@+id/alumni_content_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:singleLine="false"
+            android:text="http://www.hkumsccs.com"
+            android:textSize="20dp"
+            android:textColor="#050404"
+            android:background="@android:color/background_light"
+            android:gravity="left"
+            android:autoLink="web"
+            android:layout_marginBottom="30dp"
+            />
+
+
+
+    </LinearLayout>
+</ScrollView>
