@@ -26,7 +26,8 @@
         <activity android:name=".duration" />
         <activity android:name=".pro_regulation" />
         <activity android:name=".pro_course" />
-        <activity android:name=".Alumni"></activity>
+        <activity android:name=".Alumni" />
+        <activity android:name=".Resource"></activity>
     </application>
 
 </manifest>
