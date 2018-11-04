@@ -27,7 +27,9 @@
         <activity android:name=".pro_regulation" />
         <activity android:name=".pro_course" />
         <activity android:name=".Alumni" />
-        <activity android:name=".Resource"></activity>
+        <activity android:name=".Resource" />
+        <activity android:name=".Environment" />
+        <activity android:name=".Link"></activity>
     </application>
 
 </manifest>
