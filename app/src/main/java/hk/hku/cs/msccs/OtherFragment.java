@@ -35,42 +35,42 @@ public class OtherFragment extends Fragment implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.other_view1_img:
-                Toast.makeText(getContext(),"You clicked the picture",Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getContext(),"You clicked the picture",Toast.LENGTH_SHORT).show();
                 Intent intent_1=new Intent(getContext(),Alumni.class);
                 startActivity(intent_1);
                 break;
             case R.id.other_view1_text:
-                Toast.makeText(getContext(),"You clicked the text",Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getContext(),"You clicked the text",Toast.LENGTH_SHORT).show();
                 Intent intent_2=new Intent(getContext(),Alumni.class);
                 startActivity(intent_2);
                 break;
             case R.id.other_view2_img:
-                Toast.makeText(getContext(),"You clicked the picture",Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getContext(),"You clicked the picture",Toast.LENGTH_SHORT).show();
                 Intent intent_3=new Intent(getContext(),News.class);
                 startActivity(intent_3);
                 break;
             case R.id.other_view2_text:
-                Toast.makeText(getContext(),"You clicked the text",Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getContext(),"You clicked the text",Toast.LENGTH_SHORT).show();
                 Intent intent_4=new Intent(getContext(),News.class);
                 startActivity(intent_4);
                 break;
             case R.id.other_view3_img:
-                Toast.makeText(getContext(),"You clicked the picture",Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getContext(),"You clicked the picture",Toast.LENGTH_SHORT).show();
                 Intent intent_5=new Intent(getContext(),Event.class);
                 startActivity(intent_5);
                 break;
             case R.id.other_view3_text:
-                Toast.makeText(getContext(),"You clicked the text",Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getContext(),"You clicked the text",Toast.LENGTH_SHORT).show();
                 Intent intent_6=new Intent(getContext(),Event.class);
                 startActivity(intent_6);
                 break;
             case R.id.other_view4_img:
-                Toast.makeText(getContext(),"You clicked the picture",Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getContext(),"You clicked the picture",Toast.LENGTH_SHORT).show();
                 Intent intent_7=new Intent(getContext(),Resource.class);
                 startActivity(intent_7);
                 break;
             case R.id.other_view4_text:
-                Toast.makeText(getContext(),"You clicked the text",Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getContext(),"You clicked the text",Toast.LENGTH_SHORT).show();
                 Intent intent_8=new Intent(getContext(),Resource.class);
                 startActivity(intent_8);
                 break;

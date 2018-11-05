@@ -4,9 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import android.support.design.card.MaterialCardView;
 import android.support.v4.app.Fragment;
-import android.support.v7.widget.CardView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -26,7 +24,7 @@ import cn.bingoogolapple.bgabanner.BGABanner;
 public class HomeFragment extends Fragment implements View.OnClickListener{
     //parameters
     private final static String TAG = "HomeActivity";
-    private List<Guide_Content> card = new ArrayList<>();
+    //private List<Guide_Content> card = new ArrayList<>();//Jsoup 弃用
     TextView bannerText;
     ImageView cardimg1, cardimg2, cardimg3, cardimg4;
     //ImageView bannerImage;
@@ -54,6 +52,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
         cardimg2 = (ImageView) getActivity().findViewById(R.id.home_card_view2_image);
         cardimg3 = (ImageView) getActivity().findViewById(R.id.home_card_view3_image);
         cardimg4 = (ImageView) getActivity().findViewById(R.id.home_card_view4_image);
+        //调用网络图片
         //Glide.with(bannerImage.getContext()).load("https://www.msc-cs.hku.hk/Media/Default/Slider%20Images/Slider1.jpg").into(bannerImage);
         //Glide.with(bannerImage.getContext()).load("https://www.msc-cs.hku.hk/Media/Default/Slider%20Images/Slider_Admission.jpg").into(bannerImage);
         Glide.with(cardimg1.getContext()).load("https://www.msc-cs.hku.hk/Media/Default/ContentImages/brochureLatestFull.jpg").into(cardimg1);
@@ -62,6 +61,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
         Glide.with(cardimg4.getContext()).load("https://www.msc-cs.hku.hk/Media/Default/ContentImages/ApplicationDeadlines.jpg").into(cardimg4);
         initBanner();
 
+        //点击事件
         bannerImage.setOnClickListener(this);
         cardimg1.setOnClickListener(this);
 
@@ -72,6 +72,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
     public void onClick(View v) {   //点击事件响应
         switch (v.getId()){
 //            case R.id.banner:
+//            //点击banner，另一种方法，可重新构造
 //                if(count%2==1){
 //                    bannerText.setText("Department of Computer Science 香港大學計算機系");
 //                    Glide.with(bannerImage.getContext()).load("https://www.msc-cs.hku.hk/Media/Default/Slider%20Images/Slider1.jpg").into(bannerImage);
@@ -99,6 +100,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
     }
 
     void initBanner(){
+        //构造banner
         bannerImage.setAdapter(new BGABanner.Adapter<ImageView, String>() {
             @Override
             public void fillBannerItem(BGABanner banner, ImageView itemView, String model, int position) {
@@ -107,7 +109,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
                         .into(itemView);
             }
         });
-
+        //banner的两张图片和对应的文字
         bannerImage.setData(
                 Arrays.asList("https://www.msc-cs.hku.hk/Media/Default/Slider%20Images/Slider1.jpg", "https://www.msc-cs.hku.hk/Media/Default/Slider%20Images/Slider_Admission.jpg"),
                 Arrays.asList("Department of Computer Science 香港大學計算機系", "Master of Science in Computer Science 計算機科學理科碩士課程"));
