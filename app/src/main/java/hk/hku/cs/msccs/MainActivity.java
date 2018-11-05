@@ -23,6 +23,7 @@ import android.view.MenuItem;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.bin.david.form.annotation.SmartTable;
 import com.bumptech.glide.Glide;
 
 import org.jsoup.Jsoup;
@@ -290,5 +291,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }).start();
     }
+
+
 
 }
