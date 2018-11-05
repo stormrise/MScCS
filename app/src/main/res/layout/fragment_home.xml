@@ -16,7 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
+    <cn.bingoogolapple.bgabanner.BGABanner
         android:id="@+id/banner"
         android:layout_width="0dp"
         android:layout_height="200dp"
@@ -27,14 +27,14 @@
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/logo2" />
-        <!--app:banner_pageChangeDuration="1200"-->
-        <!--app:banner_pointAutoPlayAble="true"-->
-        <!--app:banner_pointContainerBackground="@android:color/transparent"-->
-        <!--app:banner_pointDrawable="@drawable/bga_banner_selector_point_hollow"-->
-        <!--app:banner_pointTopBottomMargin="15dp"-->
-        <!--app:banner_tipTextSize="10sp"-->
-        <!--app:banner_transitionEffect="alpha"-->
+        app:layout_constraintTop_toBottomOf="@+id/logo2"
+        app:banner_pageChangeDuration="1500"
+        app:banner_pointAutoPlayAble="true"
+        app:banner_pointContainerBackground="@android:color/transparent"
+        app:banner_pointDrawable="@drawable/bga_banner_selector_point_hollow"
+        app:banner_pointTopBottomMargin="15dp"
+        app:banner_tipTextSize="10sp"
+        app:banner_transitionEffect="alpha"/>
 
 
     <TextView
