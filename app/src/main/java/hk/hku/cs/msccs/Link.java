@@ -14,7 +14,7 @@ public class Link extends AppCompatActivity {
         setContentView(R.layout.res_link);
         ImageView title_img=(ImageView)findViewById(R.id.link_title_img);
         Glide.with(title_img.getContext())
-                .load("https://www.msc-cs.hku.hk/Media/Default/ContentImages/LearningEnvironment.jpg")
+                .load("https://www.msc-cs.hku.hk/Media/Default/ContentImages/UsefulLinks.jpg")
                 .into(title_img);
 
 

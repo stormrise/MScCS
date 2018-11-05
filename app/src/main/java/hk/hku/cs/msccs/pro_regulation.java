@@ -25,13 +25,12 @@ public class pro_regulation extends AppCompatActivity {
                 .load("https://www.msc-cs.hku.hk/Media/Default/ContentImages/Regulation.jpg")
                 .into(regulation);
         content_6=(TextView)findViewById(R.id.reg_content_6);
-        //String s1="The ";
-        //s1+="<a href = 'http://www.baidu.com'>百度</a>";
-        //content_6.setText(Html.fromHtml(s1));
-        //content_6.setMovementMethod(LinkMovementMethod.getInstance());
+        //使用SpannableString 类，将将连接加到文字背后
         SpannableString span = new SpannableString("The regulations and syllabus are applicable to students admitted to the curriculum in 2018-2019 and thereafter.");
+        //找到相应文字的位置，设置链接
         span.setSpan(new URLSpan("https://www.msc-cs.hku.hk/Media/Default/RegulationSyllabus/Regulations_MSc_2017-18.pdf"), 4, 15, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
         span.setSpan(new URLSpan("https://www.msc-cs.hku.hk/Media/Default/RegulationSyllabus/Syllabus_MSc(CompSc)_2018-19.pdf"), 20, 28, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        //设置TextView
         content_6.setText(span);
         content_6.setMovementMethod(LinkMovementMethod.getInstance());
 

@@ -102,6 +102,7 @@
             android:background="@android:color/background_light"
             android:gravity="left"
             />
+
         <TextView
             android:id="@+id/link_content_6"
             android:layout_width="match_parent"
@@ -116,6 +117,35 @@
             android:gravity="left"
             android:autoLink="web"
             />
+        <TextView
+            android:id="@+id/link_content_19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:singleLine="false"
+            android:text="HKU Portal:"
+            android:textSize="20dp"
+            android:textColor="#050404"
+            android:background="@android:color/background_light"
+            android:gravity="left"
+
+            />
+        <TextView
+            android:id="@+id/link_content_20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:singleLine="false"
+            android:text=" -  https://hkuportal.hku.hk/login.html"
+            android:textSize="20dp"
+            android:textColor="#050404"
+            android:background="@android:color/background_light"
+            android:gravity="left"
+            android:autoLink="web"
+            />
+
 
         <TextView
             android:id="@+id/link_content_7"
@@ -228,6 +258,61 @@
             />
         <TextView
             android:id="@+id/link_content_15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:singleLine="false"
+            android:text="Centre for Sports and Exercise:"
+            android:textSize="20dp"
+            android:textColor="#050404"
+            android:background="@android:color/background_light"
+            android:gravity="left"
+            />
+        <TextView
+            android:id="@+id/link_content_16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:singleLine="false"
+            android:text=" -  http://www.ihp.hku.hk/"
+            android:textSize="20dp"
+            android:textColor="#050404"
+            android:background="@android:color/background_light"
+            android:gravity="left"
+            android:autoLink="web"
+            />
+        <TextView
+            android:id="@+id/link_content_17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:singleLine="false"
+            android:text="Parking on campus:"
+            android:textSize="20dp"
+            android:textColor="#050404"
+            android:background="@android:color/background_light"
+            android:gravity="left"
+            />
+        <TextView
+            android:id="@+id/link_content_18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:singleLine="false"
+            android:text=" -  https://www.estates.hku.hk/our-services/facility-management/parking/parking-space-location-and-parking-fee"
+            android:textSize="20dp"
+            android:textColor="#050404"
+            android:background="@android:color/background_light"
+            android:gravity="left"
+            android:autoLink="web"
+            />
+
+        <TextView
+            android:id="@+id/link_content_21"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
