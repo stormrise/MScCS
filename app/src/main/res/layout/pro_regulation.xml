@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/regulation_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/regulation_guide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:background="@android:color/darker_gray"
+            android:text="Home > Curriculum > Regulation and Syllabus"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/regulation_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Regulations"
+            android:textSize="32dp"
+            android:textColor="#050404"
+            android:textStyle="bold|italic"
+            />
+
+        <TextView
+            android:id="@+id/reg_content_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginEnd="10dp"
+            android:text="1. General Regulations of The University： "
+            android:singleLine="false"
+            android:textSize="20dp"
+            android:textColor="#050404"
+            android:background="@android:color/background_light"
+            android:gravity="left"
+            />
+        <TextView
+            android:id="@+id/reg_content_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="20dp"
+            android:layout_marginEnd="10dp"
+            android:text="https://www.hku.hk/pubunit/drcd/files/pgdr2017-18/genreg.pdf"
+            android:singleLine="false"
+            android:textSize="20dp"
+            android:textColor="#050404"
+            android:background="@android:color/background_light"
+            android:autoLink="web"
+            />
+
+        <TextView
+            android:id="@+id/reg_content_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginEnd="10dp"
+            android:text="2. University's Regulations for Taught Postgraduate Curricula: "
+            android:singleLine="false"
+            android:textSize="20dp"
+            android:textColor="#050404"
+            android:background="@android:color/background_light"
+            android:gravity="left"
+            />
+        <TextView
+            android:id="@+id/reg_content_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="20dp"
+            android:layout_marginEnd="10dp"
+            android:text="https://www.hku.hk/pubunit/drcd/files/pgdr2017-18/tpg-regulations.pdf"
+            android:singleLine="false"
+            android:textSize="20dp"
+            android:textColor="#050404"
+            android:background="@android:color/background_light"
+            android:autoLink="web"
+            />
+
+        <TextView
+            android:id="@+id/reg_content_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginEnd="10dp"
+            android:text="3. Degree Regulations of MSc(CompSc) "
+            android:singleLine="false"
+            android:textSize="20dp"
+            android:textColor="#050404"
+            android:background="@android:color/background_light"
+            android:gravity="left"
+            />
+        <TextView
+            android:id="@+id/reg_content_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="20dp"
+            android:layout_marginEnd="10dp"
+            android:singleLine="false"
+            android:textSize="20dp"
+            android:textColor="#050404"
+            android:background="@android:color/background_light"
+            />
+
+
+    </LinearLayout>
+</ScrollView>
