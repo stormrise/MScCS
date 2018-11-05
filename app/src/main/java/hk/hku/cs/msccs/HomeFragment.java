@@ -110,7 +110,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
 
         bannerImage.setData(
                 Arrays.asList("https://www.msc-cs.hku.hk/Media/Default/Slider%20Images/Slider1.jpg", "https://www.msc-cs.hku.hk/Media/Default/Slider%20Images/Slider_Admission.jpg"),
-                Arrays.asList("Department of Computer Science", "Master of Science in Computer Science"));
+                Arrays.asList("Department of Computer Science 香港大學計算機系", "Master of Science in Computer Science 計算機科學理科碩士課程"));
 
     }
 

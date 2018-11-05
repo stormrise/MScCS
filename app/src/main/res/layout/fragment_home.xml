@@ -28,11 +28,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logo2"
-        app:banner_pageChangeDuration="1500"
+        app:banner_pageChangeDuration="1800"
+        app:banner_indicatorGravity="right"
         app:banner_pointAutoPlayAble="true"
         app:banner_pointContainerBackground="@android:color/transparent"
         app:banner_pointDrawable="@drawable/bga_banner_selector_point_hollow"
-        app:banner_pointTopBottomMargin="15dp"
+        app:banner_pointTopBottomMargin="6dp"
         app:banner_tipTextSize="10sp"
         app:banner_transitionEffect="alpha"/>
 
