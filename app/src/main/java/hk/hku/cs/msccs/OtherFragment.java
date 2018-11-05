@@ -41,7 +41,7 @@ public class OtherFragment extends Fragment implements View.OnClickListener {
                 break;
             case R.id.other_view1_text:
                 Toast.makeText(getContext(),"You clicked the text",Toast.LENGTH_SHORT).show();
-                Intent intent_2=new Intent(getContext(),ProOverview.class);
+                Intent intent_2=new Intent(getContext(),Alumni.class);
                 startActivity(intent_2);
                 break;
             case R.id.other_view2_img:
@@ -56,12 +56,12 @@ public class OtherFragment extends Fragment implements View.OnClickListener {
                 break;
             case R.id.other_view3_img:
                 Toast.makeText(getContext(),"You clicked the picture",Toast.LENGTH_SHORT).show();
-                Intent intent_5=new Intent(getContext(),duration.class);
+                Intent intent_5=new Intent(getContext(),Event.class);
                 startActivity(intent_5);
                 break;
             case R.id.other_view3_text:
                 Toast.makeText(getContext(),"You clicked the text",Toast.LENGTH_SHORT).show();
-                Intent intent_6=new Intent(getContext(),duration.class);
+                Intent intent_6=new Intent(getContext(),Event.class);
                 startActivity(intent_6);
                 break;
             case R.id.other_view4_img:
