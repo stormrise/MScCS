@@ -121,12 +121,14 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()){
             case R.id.call:
-                Toast.makeText(this,"click call",Toast.LENGTH_SHORT).show();
+                //Toast.makeText(this,"click call",Toast.LENGTH_SHORT).show();
                 MakeCall().show();
                 break;
             case R.id.mail:
-                Toast.makeText(this,"click mail",Toast.LENGTH_SHORT).show();
                 MakeMail().show();
+                break;
+            case R.id.place:
+                MakePlace().show();
                 break;
             default:
         }
@@ -217,6 +219,21 @@ public class MainActivity extends AppCompatActivity {
                     }
                 });
         // Create the AlertDialog object and return it
+        return builder.create();
+    }
+    public Dialog MakePlace() {
+        // Use the Builder class for convenient dialog construction
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Contact The MSc Programme Office");
+        builder.setMessage("The MSc Programme Office\n" +
+                "Department of Computer Science\n" +
+                "P3-02, Graduate House\n" +
+                "The University of Hong Kong")
+                .setPositiveButton("Got it", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+
+                    }
+                });
         return builder.create();
     }
 

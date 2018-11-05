@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".HomeFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <ImageView
         android:id="@+id/logo2"
         android:layout_width="match_parent"
@@ -17,21 +16,23 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <cn.bingoogolapple.bgabanner.BGABanner
+    <ImageView
         android:id="@+id/banner"
         android:layout_width="0dp"
         android:layout_height="200dp"
+        android:src="@drawable/home_slider1"
         android:scaleType="centerCrop"
-        app:banner_pageChangeDuration="1000"
-        app:banner_pointAutoPlayAble="true"
-        app:banner_pointContainerBackground="@android:color/transparent"
-        app:banner_pointDrawable="@drawable/bga_banner_selector_point_hollow"
-        app:banner_pointTopBottomMargin="15dp"
-        app:banner_tipTextSize="10sp"
-        app:banner_transitionEffect="alpha"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logo2" />
+        <!--app:banner_pageChangeDuration="1200"-->
+        <!--app:banner_pointAutoPlayAble="true"-->
+        <!--app:banner_pointContainerBackground="@android:color/transparent"-->
+        <!--app:banner_pointDrawable="@drawable/bga_banner_selector_point_hollow"-->
+        <!--app:banner_pointTopBottomMargin="15dp"-->
+        <!--app:banner_tipTextSize="10sp"-->
+        <!--app:banner_transitionEffect="alpha"-->
+
 
 
 
@@ -58,7 +59,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="135dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/logo" />
+                android:src="@drawable/home_brochurelatestfull" />
 
             <TextView
                 android:id="@+id/home_card_view1_text"
@@ -95,7 +96,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="135dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/logo" />
+                android:src="@drawable/home_programme_schedule" />
 
             <TextView
                 android:id="@+id/home_card_view2_text"
@@ -132,7 +133,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="135dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/logo" />
+                android:src="@drawable/home_programme_fees" />
 
             <TextView
                 android:id="@+id/home_card_view3_text"
@@ -169,7 +170,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="135dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/logo" />
+                android:src="@drawable/home_application_deadlines" />
 
             <TextView
                 android:id="@+id/home_card_view4_text"
