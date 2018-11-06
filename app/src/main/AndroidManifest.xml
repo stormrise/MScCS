@@ -30,7 +30,8 @@
         <activity android:name=".Environment" />
         <activity android:name=".Link" />
         <activity android:name=".Event" />
-        <activity android:name=".News"></activity>
+        <activity android:name=".News" />
+        <activity android:name=".ab_mess"></activity>
     </application>
 
 </manifest>
