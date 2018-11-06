@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/admission_1_img"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:src="@drawable/application" />
+
+        <TextView
+            android:id="@+id/ad5_t1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:singleLine="false"
+            android:text="  \n\nJoin us at the information sessions, and find out if the Master of Science in Computer Science Programme is the right fit for your career goals. Information Sessions include a programme overview and QA, plus the opportunity to talk informally with Programme Director and staff. Potential applicants are welcome.
+
+        \n\nInformation sessions will be organized in Hong Kong and Mainland China. Details of these information sessions will be announced on our website and/or advertised online and in major local newspapers.
+           \n\n register here if you want to get some information about the details of the information session:"
+            android:textSize="20dp"
+            android:textColor="#050404"
+            android:background="@android:color/background_light"
+            android:gravity="left"
+            />
+        <TextView
+            android:id="@+id/ad5_t2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:singleLine="false"
+            android:text="\n\nhttps://www.msc-cs.hku.hk/Admission/Info-session"
+            android:textSize="20dp"
+            android:textColor="#050404"
+            android:background="@android:color/background_light"
+            android:gravity="left"
+            android:autoLink="web"
+            />
+
+
+
+
+    </LinearLayout>
+</ScrollView>

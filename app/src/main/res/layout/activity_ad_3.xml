@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/admission_1_img"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:src="@drawable/application" />
+        <TextView
+            android:id="@+id/ad3_t1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Composition Fees"
+            android:textColor="#050404"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="32dp"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:id="@+id/ad2_t2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:singleLine="false"
+            android:text=" \nThe composition fee for each 6 credit-units in MSc(CompSc) is HK$13,000*.
+             \n\nThe dissertation, which is equivalent to 24 credits, has a composition fee of HK$52,000*.
+
+            \n\nThe total composition fees are therefore as follows:
+
+        \n\n48 credit-units (8 courses) + dissertation:
+        (HK$13,000* x 8) + (HK$52,000*) = HK$156,000*
+
+        \n\nStudents who select to study a course from the MSc(ECom IComp) and MSc(Eng) programmes have to pay HK$13,000* and HK$12,000* respectively per 6-credit course.
+\n\nFees for enrolled courses are paid on semester basis.
+\n\nThe first instalment of composition fees of 12 credit-units is payable at the time of acceptance of an offer of admission.
+
+\n\nGenerally composition fees for cancelled enrolment before specified deadline are not refunded, but can be used to pay for another enrolled course or carried over to the next semester as credit. (Subject to the approval by the University)
+
+"
+            android:textSize="20dp"
+            android:textColor="#050404"
+            android:background="@android:color/background_light"
+            android:gravity="left"
+            />
+
+    </LinearLayout>
+</ScrollView>

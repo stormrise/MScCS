@@ -9,14 +9,14 @@
     <android.support.v7.widget.CardView
         android:id="@+id/about_card_view1"
         android:layout_width="180dp"
-        android:layout_height="180dp"
-        android:layout_marginStart="8dp"
+        android:layout_height="181dp"
+        android:layout_marginStart="4dp"
         android:clickable="true"
         android:foreground="?android:attr/selectableItemBackground"
         app:cardCornerRadius="8dp"
         app:cardElevation="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -45,13 +45,14 @@
         android:id="@+id/about_card_view2"
         android:layout_width="180dp"
         android:layout_height="180dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginEnd="4dp"
         android:clickable="true"
         android:foreground="?android:attr/selectableItemBackground"
         app:cardCornerRadius="8dp"
         app:cardElevation="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/about_card_view1"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -77,17 +78,16 @@
     </android.support.v7.widget.CardView>
 
     <TextView
-    android:id="@+id/about_textView"
-    android:layout_width="380dp"
-    android:layout_height="157dp"
-    android:layout_marginTop="228dp"
-    android:text="The Department of Computer Science is committed to high-quality education and training of computing professionals at both the undergraduate and postgraduate levels. At the postgraduate level, we offer two taught programmes based on coursework, the MSc(CompSc) as well as the research-based MPhil and PhD programmes.
+        android:id="@+id/about_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="The Department of Computer Science is committed to high-quality education and training of computing professionals at both the undergraduate and postgraduate levels. At the postgraduate level, we offer two taught programmes based on coursework, the MSc(CompSc) as well as the research-based MPhil and PhD programmes.
 "
-    android:textSize="16sp"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintHorizontal_bias="1.0"
-    app:layout_constraintStart_toEndOf="@+id/imageView"
-    app:layout_constraintTop_toTopOf="@+id/imageView" />
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/about_card_view1" />
 
     <ImageView
         android:id="@+id/imageView"

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/admission_1_img"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:src="@drawable/application" />
+        <TextView
+            android:id="@+id/ad2_t1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Application Procedures"
+            android:textColor="#050404"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="32dp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/ad2_t2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:singleLine="false"
+            android:text="Applicants can submit their application via the online application system by clicking the following link."
+            android:textSize="20dp"
+            android:textColor="#050404"
+            android:background="@android:color/background_light"
+            android:gravity="left"
+            />
+
+        <TextView
+            android:id="@+id/ad2_t3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:singleLine="false"
+            android:text="https://aal.hku.hk/tpg/programme/master-science-computer-science"
+            android:textSize="20dp"
+            android:textColor="#050404"
+            android:background="@android:color/background_light"
+            android:gravity="left"
+            android:autoLink="web"
+            />
+
+        <TextView
+            android:id="@+id/ad2_t4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:singleLine="false"
+            android:text="  The following supporting documents should be uploaded to the online application system before the application deadline or expiry of your application account (which is valid for four weeks only), whichever is earlier:
+
+        \n\n• Graduate transcript(s) with grading system of all tertiary level studies
+
+        \n\n• Degree certificate(s)
+
+        \n\n• English Language proficiency test score report, such as TOEFL or IELTS (only for applicants with qualifications from institutions outside Hong Kong where the language of instruction and/or examination is not English)
+
+        \n\n• Proof of Cumulative Grade Point Average (CGPA) / average grade / average mark
+
+        \n\n• Official proof of class ranking, if available
+
+        \n\n• A curriculum vitae (C.V.)
+
+        \n\nApplicants are not required to submit original documents during the application stage.  Should an applicant be given an admission offer by the Programme, he/she will receive notification of the need to submit original/certified true copy* of the documents to the MSc(CompSc) Programme Office.
+
+        \n\nPlease note that documents once submitted will not be returned, and will be destroyed if the application is unsuccessful.
+
+        \n\n*The University will only ACCEPT originals and copies of the documents that have been duly declared as true copies before a notary public.
+"
+            android:textSize="20dp"
+            android:textColor="#050404"
+            android:background="@android:color/background_light"
+            android:gravity="left"
+            />
+
+        <TextView
+            android:id="@+id/ad2_t5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:text=" Application Fee"
+            android:textColor="#050404"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="32dp"
+            android:textStyle="bold|italic" />
+
+
+        <TextView
+            android:id="@+id/ad2_t6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:singleLine="false"
+            android:text="The application fee is HK$300 (non-refundable), paid by credit card online.\n\n"
+            android:textSize="20dp"
+            android:textColor="#050404"
+            android:background="@android:color/background_light"
+            android:gravity="left"
+            />
+
+</LinearLayout>
+    </ScrollView>
