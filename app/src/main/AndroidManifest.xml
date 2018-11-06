@@ -31,7 +31,8 @@
         <activity android:name=".Link" />
         <activity android:name=".Event" />
         <activity android:name=".News" />
-        <activity android:name=".ab_mess"></activity>
+        <activity android:name=".ab_mess" />
+        <activity android:name=".ab_faculty"></activity>
     </application>
 
 </manifest>

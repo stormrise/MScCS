@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/faculty_team"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Programme\nManagement Team"
+            android:textColor="#050404"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="32dp"
+            android:textStyle="bold|italic" />
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/faculty_9"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/faculty_9_image"
+                    android:layout_width="150dp"
+                    android:layout_height="130dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/wangcl" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/faculty_9_text1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Prof. Wang C.L."
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="30dp" />
+
+                    <TextView
+                        android:id="@+id/faculty_9_text2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PhD (USC)\n
+Field of Research\n
+Operating Systems, Virtual Machines, Cloud Computing"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/faculty_9_text3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="20dp"
+                        android:singleLine="false"
+                        android:text="clwang@cs.hku.hk"
+                        android:textSize="20dp"
+                        android:textColor="#050404"
+                        android:background="@android:color/background_light"
+                        android:gravity="center"
+                        android:autoLink="email"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/faculty_11"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/faculty_11_image"
+                    android:layout_width="150dp"
+                    android:layout_height="130dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/yiu" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/faculty_11_text1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dr. Yiu S.M."
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="30dp" />
+
+                    <TextView
+                        android:id="@+id/faculty_11_text2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PhD (HK)\nField of Research\nBioinformatics, Computer Security and Cryptography"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/faculty_11_text3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="20dp"
+                        android:singleLine="false"
+                        android:text="smyiu@cs.hku.hk"
+                        android:textSize="20dp"
+                        android:textColor="#050404"
+                        android:background="@android:color/background_light"
+                        android:gravity="center"
+                        android:autoLink="email"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/faculty_7"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/faculty_7_image"
+                    android:layout_width="150dp"
+                    android:layout_height="130dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/sch" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/faculty_7_text1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dr. Schnieders D."
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="30dp" />
+
+                    <TextView
+                        android:id="@+id/faculty_7_text2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PhD (HK)\nField of Research\nComputer Vision, Image Processing, Pattern Recognition"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/faculty_7_text3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="20dp"
+                        android:singleLine="false"
+                        android:text="sdirk@cs.hku.hk"
+                        android:textSize="20dp"
+                        android:textColor="#050404"
+                        android:background="@android:color/background_light"
+                        android:gravity="center"
+                        android:autoLink="email"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:id="@+id/faculty_other"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:text="The academic staff"
+            android:textColor="#050404"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="32dp"
+            android:textStyle="bold|italic" />
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/faculty_1"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/faculty_1_image"
+                    android:layout_width="150dp"
+                    android:layout_height="130dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/chan" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/faculty_1_text1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dr. Chan H.T.H"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/faculty_1_text2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PhD (Carnegie Mellon)\nField of Research\nAlgorithms, Combinatorial Optimization, Graphs, Information Networks, Security and Privacy"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp" />
+                <TextView
+                    android:id="@+id/faculty_1_text3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:singleLine="false"
+                    android:text="kpchan@cs.hku.hk"
+                    android:textSize="20dp"
+                    android:textColor="#050404"
+                    android:background="@android:color/background_light"
+                    android:gravity="left"
+                    android:autoLink="email"/>
+            </LinearLayout>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/faculty_2"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/faculty_2_image"
+                    android:layout_width="150dp"
+                    android:layout_height="130dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/bebo" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/faculty_2_text1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Prof. White B."
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="30dp" />
+
+                    <TextView
+                        android:id="@+id/faculty_2_text2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="MS (US)\nField of Research\nWeb Science, Social Media in Education, The Web of Things, and Cloud Computing"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/faculty_2_text3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="20dp"
+                        android:singleLine="false"
+                        android:text="bwhite@cs.hku.hk"
+                        android:textSize="20dp"
+                        android:textColor="#050404"
+                        android:background="@android:color/background_light"
+                        android:gravity="left"
+                        android:autoLink="email"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/faculty_3"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/faculty_3_image"
+                    android:layout_width="160dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/chim" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/faculty_3_text1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dr. Chim T.W."
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="30dp" />
+
+                    <TextView
+                        android:id="@+id/faculty_3_text2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PhD (HK)\n\nField of Research\nNetwork Security and Cryptography"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:id="@+id/faculty_3_text3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="20dp"
+                        android:singleLine="false"
+                        android:text="twchim@cs.hku.hk"
+                        android:textSize="20dp"
+                        android:textColor="#050404"
+                        android:background="@android:color/background_light"
+                        android:gravity="left"
+                        android:autoLink="email"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/faculty_4"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/faculty_4_image"
+                    android:layout_width="150dp"
+                    android:layout_height="130dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/chowkp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/faculty_4_text1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dr. Chow K.P."
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="30dp" />
+
+                    <TextView
+                        android:id="@+id/faculty_4_text2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PhD (UC Santa Barbara)\n
+Field of Research\n
+Computer Forensics, Digital Investigation, Data Privacy, Computer Security"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:id="@+id/faculty_4_text3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="20dp"
+                        android:singleLine="false"
+                        android:text="chow@cs.hku.hk"
+                        android:textSize="20dp"
+                        android:textColor="#050404"
+                        android:background="@android:color/background_light"
+                        android:gravity="center"
+                        android:autoLink="email"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/faculty_5"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/faculty_5_image"
+                    android:layout_width="150dp"
+                    android:layout_height="130dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/chung" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/faculty_5_text1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dr. Chung H.Y."
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="30dp" />
+
+                    <TextView
+                        android:id="@+id/faculty_5_text2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PhD (HK)\nField of Research\n
+Internet Computing, Video-coding, Video/Image Processing, Real-time Processing"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:id="@+id/faculty_5_text3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="20dp"
+                        android:singleLine="false"
+                        android:text="hychung@cs.hku.hk"
+                        android:textSize="20dp"
+                        android:textColor="#050404"
+                        android:background="@android:color/background_light"
+                        android:gravity="left"
+                        android:autoLink="email"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/faculty_6"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/faculty_6_image"
+                    android:layout_width="150dp"
+                    android:layout_height="130dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/pun" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/faculty_6_text1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dr. Pun K.K.H."
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="30dp" />
+
+                    <TextView
+                        android:id="@+id/faculty_6_text2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PhD (Illinois); LLB, LLM (London)\nField of Research\nInformation Technology Law, e-Commerce, e-Crimes, Computerization of Law"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:id="@+id/faculty_6_text3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="20dp"
+                        android:singleLine="false"
+                        android:text=" pun@cs.hku.hk"
+                        android:textSize="20dp"
+                        android:textColor="#050404"
+                        android:background="@android:color/background_light"
+                        android:gravity="center"
+                        android:autoLink="email"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/faculty_8"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/faculty_8_image"
+                    android:layout_width="150dp"
+                    android:layout_height="130dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/tse" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/faculty_8_text1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Prof. Tse T.H."
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="30dp" />
+
+                    <TextView
+                        android:id="@+id/faculty_8_text2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PhD (London)\nField of Research\mProgram Testing, Debugging, and Analysis"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:id="@+id/faculty_8_text3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="20dp"
+                        android:singleLine="false"
+                        android:text="thtse@cs.hku.hk"
+                        android:textSize="20dp"
+                        android:textColor="#050404"
+                        android:background="@android:color/background_light"
+                        android:gravity="center"
+                        android:autoLink="email"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/faculty_10"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/faculty_10_image"
+                    android:layout_width="150dp"
+                    android:layout_height="130dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/choi" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/faculty_10_text1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dr. Choi L.Y.K."
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="30dp" />
+
+                    <TextView
+                        android:id="@+id/faculty_10_text2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PhD (HK)\n
+Field of Research\n
+Medical Visualization, Geometric Computing, Computer Graphics"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/faculty_10_text3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="20dp"
+                        android:singleLine="false"
+                        android:text="ykchoi@cs.hku.hk"
+                        android:textSize="20dp"
+                        android:textColor="#050404"
+                        android:background="@android:color/background_light"
+                        android:gravity="center"
+                        android:autoLink="email"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

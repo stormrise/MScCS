@@ -16,6 +16,14 @@
             android:layout_height="75dp"
             android:src="@drawable/ab_mess" />
 
+        <TextView
+            android:id="@+id/link_guide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:background="@android:color/darker_gray"
+            android:text="Home > About > Message"
+            android:textSize="20dp"/>
 
         <TextView
             android:id="@+id/ab_title"
@@ -112,7 +120,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
             android:singleLine="false"
-            android:text="Dr. K.P. Chow
+            android:text="\t\tDr. K.P. Chow\n\n
 Programme Director"
             android:textSize="20dp"
             android:textColor="#050404"

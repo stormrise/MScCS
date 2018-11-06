@@ -58,12 +58,12 @@ public class AboutFragment extends Fragment implements View.OnClickListener{
                 break;
             case R.id.about_card_view2_image:
                 //Toast.makeText(img_card1.getContext(),"You clicked the picture",Toast.LENGTH_SHORT).show();
-                Intent intent_3=new Intent(getContext(),pro_course.class);
+                Intent intent_3=new Intent(getContext(),ab_faculty.class);
                 startActivity(intent_3);
                 break;
             case R.id.about_card_view2_text:
                 //Toast.makeText(img_card1.getContext(),"You clicked the text",Toast.LENGTH_SHORT).show();
-                Intent intent_4=new Intent(getContext(),pro_course.class);
+                Intent intent_4=new Intent(getContext(),ab_faculty.class);
                 startActivity(intent_4);
                 break;
             default:
