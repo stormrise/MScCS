@@ -85,7 +85,8 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
 //
 //                break;
             case R.id.home_card_view1_image:
-
+                Intent intent_1=new Intent(getContext(),ProOverview.class);
+                startActivity(intent_1);
                 break;
             case R.id.home_card_view2_image:
 

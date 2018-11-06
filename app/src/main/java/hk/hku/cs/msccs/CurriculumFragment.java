@@ -95,6 +95,13 @@ public class CurriculumFragment extends Fragment implements View.OnClickListener
         text_card2=(TextView)getActivity().findViewById(R.id.curr_view2_text);
         text_card3=(TextView)getActivity().findViewById(R.id.curr_view3_text);
         text_card4=(TextView)getActivity().findViewById(R.id.curr_view4_text);
+        //加载图片
+        Glide.with(img_card1.getContext()).load("https://www.msc-cs.hku.hk/Media/Default/ContentImages/brochureLatestFull.jpg").into(img_card1);
+        Glide.with(img_card2.getContext()).load(R.drawable.cur_course).into(img_card2);
+        Glide.with(img_card3.getContext()).load(R.drawable.cur_dur).into(img_card3);
+        Glide.with(img_card4.getContext()).load(R.drawable.cur_syll).into(img_card4);
+
+
         //设置监听器
         img_card1.setOnClickListener(this);
         img_card2.setOnClickListener(this);
