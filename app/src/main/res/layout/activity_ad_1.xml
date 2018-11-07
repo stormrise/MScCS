@@ -14,6 +14,7 @@
             android:id="@+id/admission_1_img"
             android:layout_width="match_parent"
             android:layout_height="75dp"
+            android:scaleType="centerCrop"
             android:src="@drawable/application" />
         <TextView
             android:id="@+id/ad1_t1"
@@ -23,8 +24,7 @@
             android:layout_marginTop="8dp"
             android:text="Eligibility"
             android:textColor="#050404"
-            android:textAlignment="center"
-            android:gravity="center"
+            android:gravity="left"
             android:textSize="32dp"
             android:textStyle="bold|italic" />
 
@@ -58,8 +58,7 @@
             android:layout_marginTop="8dp"
             android:text="English Language Proficiency Requirement"
             android:textColor="#050404"
-            android:textAlignment="center"
-            android:gravity="center"
+            android:gravity="left"
             android:textSize="32dp"
             android:textStyle="bold|italic" />
 
@@ -97,8 +96,7 @@
             android:layout_marginTop="8dp"
             android:text="Regulations' Links"
             android:textColor="#050404"
-            android:textAlignment="center"
-            android:gravity="center"
+            android:gravity="left"
             android:textSize="32dp"
             android:textStyle="bold|italic" />
 

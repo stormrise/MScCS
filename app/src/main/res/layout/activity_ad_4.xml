@@ -13,6 +13,7 @@
             android:id="@+id/admission_1_img"
             android:layout_width="match_parent"
             android:layout_height="75dp"
+            android:scaleType="centerCrop"
             android:src="@drawable/application" />
         <TextView
             android:id="@+id/ad2_t2"
