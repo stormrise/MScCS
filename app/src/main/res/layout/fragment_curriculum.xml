@@ -52,6 +52,7 @@
                     android:id="@+id/curr_view1_img"
                     android:layout_width="match_parent"
                     android:layout_height="110dp"
+                    android:scaleType="centerCrop"
                     android:src="@drawable/logo_blue" />
 
                 <TextView
@@ -88,6 +89,7 @@
                     android:id="@+id/curr_view2_img"
                     android:layout_width="match_parent"
                     android:layout_height="110dp"
+                    android:scaleType="centerCrop"
                     android:src="@drawable/logo_blue" />
 
                 <TextView
@@ -124,6 +126,7 @@
                     android:id="@+id/curr_view3_img"
                     android:layout_width="match_parent"
                     android:layout_height="110dp"
+                    android:scaleType="centerCrop"
                     android:src="@drawable/logo_blue" />
 
                 <TextView
@@ -160,6 +163,7 @@
                     android:id="@+id/curr_view4_img"
                     android:layout_width="match_parent"
                     android:layout_height="110dp"
+                    android:scaleType="centerCrop"
                     android:src="@drawable/logo_blue" />
 
                 <TextView

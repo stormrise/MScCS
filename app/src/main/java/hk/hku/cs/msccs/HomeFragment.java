@@ -64,6 +64,9 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
         //点击事件
         bannerImage.setOnClickListener(this);
         cardimg1.setOnClickListener(this);
+        cardimg2.setOnClickListener(this);
+        cardimg3.setOnClickListener(this);
+        cardimg4.setOnClickListener(this);
 
 
     }
@@ -85,16 +88,20 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
 //
 //                break;
             case R.id.home_card_view1_image:
-
+                Intent intent_1=new Intent(getContext(),ProOverview.class);
+                startActivity(intent_1);
                 break;
             case R.id.home_card_view2_image:
-
+                Intent intent_2=new Intent(getContext(),duration.class);
+                startActivity(intent_2);
                 break;
             case R.id.home_card_view3_image:
-
+                Intent intent_3=new Intent(getContext(),ad_3.class);
+                startActivity(intent_3);
                 break;
             case R.id.home_card_view4_image:
-
+                Intent intent_4=new Intent(getContext(),ad_2.class);
+                startActivity(intent_4);
                 break;
         }
     }
