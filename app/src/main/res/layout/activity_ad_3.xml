@@ -32,6 +32,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
             android:singleLine="false"
             android:text=" \nThe composition fee for each 6 credit-units in MSc(CompSc) is HK$13,000*.
              \n\nThe dissertation, which is equivalent to 24 credits, has a composition fee of HK$52,000*.

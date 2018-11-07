@@ -22,6 +22,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
             android:singleLine="false"
             android:text="  \n\nJoin us at the information sessions, and find out if the Master of Science in Computer Science Programme is the right fit for your career goals. Information Sessions include a programme overview and QA, plus the opportunity to talk informally with Programme Director and staff. Potential applicants are welcome.
 
