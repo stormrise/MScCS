@@ -631,7 +631,7 @@ Internet Computing, Video-coding, Video/Image Processing, Real-time Processing"
                         android:id="@+id/faculty_6_text2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="PhD (Illinois); LLB, LLM (London)\nField of Research\nInformation Technology Law, e-Commerce, e-Crimes, Computerization of Law"
+                        android:text="LLB, LLM (London)\nField of Research\ne-Commerce, Computerization of Law"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
                         android:textSize="20dp" />
@@ -835,10 +835,10 @@ Medical Visualization, Geometric Computing, Computer Graphics"
                         android:id="@+id/faculty_12_text2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="PhD (HK)\n\nField of Research\nPattern Recognition, Chinese Computing, Facial Expression Recognition, Machine Learning"
+                        android:text="PhD (HK)\n\nField of Research\nPattern Recognition, Facial Expression Recognition"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
-                        android:textSize="20dp" />
+                        android:textSize="17dp" />
 
                     <TextView
                         android:id="@+id/faculty_12_text3"
@@ -974,9 +974,7 @@ Field of Research
                         android:id="@+id/faculty_14_text2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="PhD (HK)\n\n
-Field of Research
-\nUser Interface, Embedded System, Mobile system, Chinese Character, Font and Input Technologies"
+                        android:text="PhD (HK)\nField of Research\nUser Interface, Embedded System, Font and Input Technologies"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
                         android:textSize="20dp" />
@@ -1452,7 +1450,7 @@ Computer and Network Security"
                         android:id="@+id/faculty_21_text1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Mr. Mitcheson, G."
+                        android:text="Mr. Mitcheson"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
                         android:textSize="30dp" />
@@ -1461,7 +1459,7 @@ Computer and Network Security"
                         android:id="@+id/faculty_21_text2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="BSc, MSc (Manc)\n\n
+                        android:text="BSc, MSc (Manc)\n
 Field of Research\n
 Software Engineering, Evolutionary Computation and Design"
                         android:textAlignment="center"
@@ -1600,10 +1598,10 @@ Software Engineering, Evolutionary Computation and Design"
                         android:id="@+id/faculty_23_text2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="PhD (Simon Fraser)\n\nField of Research\nData Engineering, e-Commerce Technology"
+                        android:text="PhD (Simon Fraser)\nField of Research\nData Engineering, e-Commerce Technology"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
-                        android:textSize="20dp" />
+                        android:textSize="18dp" />
 
                     <TextView
                         android:id="@+id/faculty_23_text3"
@@ -1669,10 +1667,10 @@ Software Engineering, Evolutionary Computation and Design"
                         android:id="@+id/faculty_24_text2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="PhD (Princeton)\n\nField of Research\nDatabase Management Systems, Data Mining, Real-time Systems, Information Retrieval Systems"
+                        android:text="PhD (Princeton)\nField of Research\nDatabase Management Systems, Real-time Systems, Information Retrieval Systems"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
-                        android:textSize="20dp" />
+                        android:textSize="18dp" />
 
                     <TextView
                         android:id="@+id/faculty_24_text3"
@@ -1803,10 +1801,10 @@ Software Engineering, Evolutionary Computation and Design"
                         android:id="@+id/faculty_26_text2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="PhD (Waterloo)\n\nField of Research\nOperating Systems, Parallel and Distributed Computing, Wireless Networks"
+                        android:text="PhD (Waterloo)\n\nField of Research\nOperating Systems, Parallel and Distributed Computing"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
-                        android:textSize="20dp" />
+                        android:textSize="18dp" />
 
                     <TextView
                         android:id="@+id/faculty_26_text3"
