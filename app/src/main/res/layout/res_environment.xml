@@ -23,7 +23,7 @@
             android:layout_gravity="left"
             android:background="@android:color/darker_gray"
             android:text="Home > Other > Student Resource > Learning Environment"
-            android:textSize="20dp"/>
+            android:textSize="20sp"/>
         <TextView
             android:id="@+id/library_title"
             android:layout_width="match_parent"
@@ -31,7 +31,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
             android:text="Libraries"
-            android:textSize="32dp"
+            android:textSize="32sp"
             android:textColor="#050404"
             android:textStyle="bold|italic"
             />
@@ -49,7 +49,7 @@
             android:layout_marginLeft="10dp"
             android:singleLine="false"
             android:text="The University of Hong Kong Libraries consist of the Main Library and six branch libraries. Students may take advantage of the huge library collections in The University of Hong Kong. The Libraries have a total stock of over 2.99 million printed volumes, while there are also substantial holdings of audio-visual items and materials in microform. An expanding collection of electronic information resources that comprises an all-rounded collection of materials in the arts, humanities, architecture, social sciences, and science and technology, giving vital support to teaching and research in the University."
-            android:textSize="18dp"
+            android:textSize="18sp"
             android:textColor="#050404"
             android:gravity="left"
             />
@@ -61,7 +61,7 @@
             android:layout_marginLeft="10dp"
             android:singleLine="false"
             android:text="http://lib.hku.hk/"
-            android:textSize="18dp"
+            android:textSize="18sp"
             android:textColor="#050404"
             android:gravity="left"
             android:autoLink="web"
@@ -73,7 +73,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
             android:text="MSc Programme Office"
-            android:textSize="32dp"
+            android:textSize="32sp"
             android:textColor="#050404"
             android:textStyle="bold|italic"
             />
@@ -91,7 +91,7 @@
             android:layout_marginLeft="10dp"
             android:singleLine="false"
             android:text="The MSc Programme Office (located in P3-02 of the Graduate House) provides administrative support to the Programme Director and takes care of all student matters, such as admission, enrolment, examination, student records and enquiries.  It is also responsible for the evaluation, development and overall management of the programme.  It does the same for the Department’s second taught master’s programme in Electronic Commerce and Internet Computing, MSc(EComa nd IComp)."
-            android:textSize="18dp"
+            android:textSize="18sp"
             android:textColor="#050404"
             android:gravity="left"
             />
@@ -103,7 +103,7 @@
             android:layout_marginLeft="10dp"
             android:singleLine="false"
             android:text="The opening hours of the Office for MSc(CompSc) staff and students are 9:00 a.m. to 5:00 p.m. on weekdays and 9:00 a.m. to 12:00 noon on Saturdays."
-            android:textSize="18dp"
+            android:textSize="18sp"
             android:textColor="#050404"
             android:gravity="left"
             />
@@ -114,7 +114,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
             android:text="Student Lounge"
-            android:textSize="32dp"
+            android:textSize="32sp"
             android:textColor="#050404"
             android:textStyle="bold|italic"
             />
@@ -132,7 +132,7 @@
             android:layout_marginLeft="10dp"
             android:singleLine="false"
             android:text="A student lounge in P2-07 of the Graduate House is open to all students of MSc(ECom and IComp) and MSc(CompSc). Our lounge is primarily designed for students for self-studying and group discussion in a relaxed and casual manner. Some computer workstations and printers services are also available."
-            android:textSize="18dp"
+            android:textSize="18sp"
             android:textColor="#050404"
             android:gravity="left"
             />
@@ -143,7 +143,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
             android:text="Learning Commons"
-            android:textSize="32dp"
+            android:textSize="32sp"
             android:textColor="#050404"
             android:textStyle="bold|italic"
             />
@@ -161,7 +161,7 @@
             android:layout_marginLeft="10dp"
             android:singleLine="false"
             android:text="The Learning Commons is a campus hub equipped with modern learning facilities that encourages and facilitates individual and group study. A variety of spaces are provided for individual and self-paced learning in the Learning Commons.  These include quiet study areas, reading and lounging areas and individual workstations.  Collaborative learning spaces are provided in the form of group study rooms with more traditionally styled work tables as well as diner booth style places that are well suited to group interactivity."
-            android:textSize="18dp"
+            android:textSize="18sp"
             android:textColor="#050404"
             android:gravity="left"
             />
@@ -173,7 +173,7 @@
             android:layout_marginLeft="10dp"
             android:singleLine="false"
             android:text="http://www.les.hku.hk/teaching-learning/learning-space"
-            android:textSize="18dp"
+            android:textSize="18sp"
             android:textColor="#050404"
             android:gravity="left"
             android:autoLink="web"
@@ -185,7 +185,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
             android:text="Research Groups and Center"
-            android:textSize="32dp"
+            android:textSize="32sp"
             android:textColor="#050404"
             android:textStyle="bold|italic"
             />
@@ -203,7 +203,7 @@
             android:layout_marginLeft="10dp"
             android:singleLine="false"
             android:text="In our Department, our faculty are actively engaged in research; some, in fact, are internationally renowned in their areas of expertise. In many cases, the products of this department’s research have particular relevance for Hong Kong, representing valuable contributions to our local IT industry as well as to the broader research community. Research activities are clustered into research groups which represent the department’s particular areas of strength.  The work of the groups is generally supported by state-of-the-art research laboratories and involve many of our postgraduate students."
-            android:textSize="18dp"
+            android:textSize="18sp"
             android:textColor="#050404"
             android:gravity="left"
             />
@@ -215,7 +215,7 @@
             android:layout_marginLeft="10dp"
             android:singleLine="false"
             android:text="The following are the existing research groups and centers in the department:"
-            android:textSize="18dp"
+            android:textSize="18sp"
             android:textColor="#050404"
             android:gravity="left"
             />
@@ -234,7 +234,7 @@ Computer Vision Laboratory,
 High-Performance Computing Laboratory,
 Law and Technology Centre,
 Systems and Networking Research Laboratory"
-            android:textSize="18dp"
+            android:textSize="18sp"
             android:textColor="#050404"
             android:gravity="left"
             />
@@ -246,7 +246,7 @@ Systems and Networking Research Laboratory"
             android:layout_marginLeft="10dp"
             android:singleLine="false"
             android:text="Our students are encouraged to attend talks and seminars hosted by these centres to expand their horizons."
-            android:textSize="18dp"
+            android:textSize="18sp"
             android:textColor="#050404"
             android:gravity="left"
             />
@@ -257,7 +257,7 @@ Systems and Networking Research Laboratory"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
             android:text="Moodle and Panopto"
-            android:textSize="32dp"
+            android:textSize="32sp"
             android:textColor="#050404"
             android:textStyle="bold|italic"
             />
@@ -275,7 +275,7 @@ Systems and Networking Research Laboratory"
             android:layout_marginLeft="10dp"
             android:singleLine="false"
             android:text="The University has introduced a learning platform called Moodle with the Panopto recording and broadcasting system for all students on the University Portal.  You, if enrolled, will be using that system during the study of a course to interact with fellow students, teachers, and to listen to recorded lectures."
-            android:textSize="18dp"
+            android:textSize="18sp"
             android:textColor="#050404"
             android:gravity="left"
             />
@@ -288,7 +288,7 @@ Systems and Networking Research Laboratory"
             android:singleLine="false"
             android:text="  http://moodle.hku.hk/
                             https://lecturecapture.hku.hk/"
-            android:textSize="18dp"
+            android:textSize="18sp"
             android:textColor="#050404"
             android:gravity="left"
             android:autoLink="web"
