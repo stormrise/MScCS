@@ -23,6 +23,7 @@
             android:layout_gravity="left"
             android:background="@android:color/darker_gray"
             android:text="Home > Other > Student Recourse"
+            android:textStyle="italic"
             android:textSize="20sp"/>
 
         <android.support.v7.widget.CardView

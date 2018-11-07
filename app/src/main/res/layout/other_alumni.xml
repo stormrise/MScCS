@@ -23,6 +23,7 @@
             android:layout_gravity="left"
             android:background="@android:color/darker_gray"
             android:text="Home > Other > MSc(CompSc) Alumni Association"
+            android:textStyle="italic"
             android:textSize="20sp"/>
         <TextView
             android:id="@+id/pro_title"

@@ -22,6 +22,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:background="@android:color/darker_gray"
+            android:textStyle="italic"
             android:text="Home > Curriculum > Duration study and class Schedule"
             android:textSize="20sp"/>
         <TextView

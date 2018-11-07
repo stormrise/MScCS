@@ -23,6 +23,7 @@
             android:layout_gravity="start"
             android:background="@android:color/darker_gray"
             android:text="Home > Curriculum > Courses"
+            android:textStyle="italic"
             android:textSize="20sp"/>
         <TextView
             android:id="@+id/course_title"
