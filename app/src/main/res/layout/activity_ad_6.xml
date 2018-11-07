@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/admission_1_img"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:src="@drawable/application" />
+
+        <TextView
+            android:id="@+id/ad6_t1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:text="1. I'm an undergraduate student in the final year. Can I apply your programme?"
+            android:textAlignment="viewStart"
+            android:textColor="#050404"
+            android:textSize="28dp"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:id="@+id/ad6_t2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:singleLine="false"
+            android:text="You can submit application if you expect that you will complete your current study and obtain official certification on your graduation by August. Non-local students should however note that the official offer letter of admission could be issued only after you have submitted the official certificate on graduation and the complete transcript. This official offer letter is required for your student visa application which will take at least 6 to 8 weeks. Therefore, you may have to reserve enough time for visa application."
+            android:textSize="20dp"
+            android:textColor="#050404"
+            android:background="@android:color/background_light"
+            android:gravity="left"
+            />
+
+        <TextView
+            android:id="@+id/ad6_t3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:text="2. Do I need to post the hardcopy of supporting doucments to HKU during application?"
+            android:textColor="#050404"
+            android:textAlignment="viewStart"
+            android:textSize="28dp"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:id="@+id/ad6_t4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:singleLine="false"
+            android:text="Applicants are recommended to provide the softcopy of all supporting documents, which can be uploaded to the on-line application system within 4 weeks after account creation.
+
+                            \n\nApplicants are NOT required to submit original documents during the application stage.
+
+                            \n\nThe chance of being admitted are the same even if only softcopy are provided.
+
+                            \n\nShould an applicant be given an admission offer by the Programme, he/she will receive notification of the need to submit original/certified true copy of the documents.
+
+                            \n\nPlease note that documents once submitted will not be returned, and will be destroyed if the application is unsuccessful."
+            android:textSize="20dp"
+            android:textColor="#050404"
+            android:background="@android:color/background_light"
+            android:gravity="left"
+            />
+        <TextView
+            android:id="@+id/ad6_t5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:text="3. Are photocopies of the TOEFL or IELTS reports accepted?"
+            android:textColor="#050404"
+            android:textAlignment="viewStart"
+            android:textSize="28dp"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:id="@+id/ad6_t6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:singleLine="false"
+            android:text="Only original test reports are accepted. You could ask the test center to send the official reports directly to HKU."
+            android:textSize="20dp"
+            android:textColor="#050404"
+            android:background="@android:color/background_light"
+            android:gravity="left"
+            />
+        <TextView
+            android:id="@+id/ad6_t7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:text="4. Do I need to submit reference letters? Is there any form for referees?"
+            android:textColor="#050404"
+            android:textAlignment="viewStart"
+            android:textSize="28dp"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:id="@+id/ad6_t8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:singleLine="false"
+            android:text="You do not need to submit reference letters or ask your referees to complete a form at the time of application. The Programme Office will contact you or the referees directly afterwards if reference letters are required."
+            android:textSize="20dp"
+            android:textColor="#050404"
+            android:background="@android:color/background_light"
+            android:gravity="left"
+            />
+        <TextView
+            android:id="@+id/ad6_t9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:text="5. When will I know the application results?"
+            android:textColor="#050404"
+            android:textAlignment="viewStart"
+            android:textSize="28dp"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:id="@+id/ad6_t10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:singleLine="false"
+            android:text="The admission selection committee works continuously for months to review the large number of applications and to conduct interviews in order to select top candidates for admission to this MSc programme.
+                            \n\nSuccessful applicants will be notified of the result once it is ready.
+                            \n\nHowever, if you have not heard from us by 31 July 2019, you may assume that your application is not successful."
+            android:textSize="20dp"
+            android:textColor="#050404"
+            android:background="@android:color/background_light"
+            android:gravity="left"
+            />
+
+    </LinearLayout>
+</ScrollView>

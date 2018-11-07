@@ -6,20 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".HomeFragment">
 
-
-
     <android.support.v7.widget.CardView
         android:id="@+id/about_card_view1"
         android:layout_width="180dp"
-        android:layout_height="180dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="50dp"
+        android:layout_height="181dp"
+        android:layout_marginStart="4dp"
         android:clickable="true"
         android:foreground="?android:attr/selectableItemBackground"
         app:cardCornerRadius="8dp"
         app:cardElevation="8dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/banner">
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -48,14 +45,14 @@
         android:id="@+id/about_card_view2"
         android:layout_width="180dp"
         android:layout_height="180dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="4dp"
         android:clickable="true"
         android:foreground="?android:attr/selectableItemBackground"
         app:cardCornerRadius="8dp"
         app:cardElevation="8dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/banner">
+        app:layout_constraintStart_toEndOf="@+id/about_card_view1"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -63,13 +60,13 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/home_card_view2_image"
+                android:id="@+id/about_card_view2_image"
                 android:layout_width="match_parent"
                 android:layout_height="135dp"
                 android:src="@drawable/faculty" />
 
             <TextView
-                android:id="@+id/home_card_view2_text"
+                android:id="@+id/about_card_view2_text"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="Faculty"
@@ -82,25 +79,23 @@
 
     <TextView
         android:id="@+id/about_textView"
-        android:layout_width="380dp"
-        android:layout_height="414dp"
-        android:layout_marginTop="16dp"
-        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
         android:text="The Department of Computer Science is committed to high-quality education and training of computing professionals at both the undergraduate and postgraduate levels. At the postgraduate level, we offer two taught programmes based on coursework, the MSc(CompSc) as well as the research-based MPhil and PhD programmes.
 "
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toTopOf="@+id/imageView" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/about_card_view1" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="180dp"
+        android:layout_width="match_parent"
+        android:layout_height="232dp"
         android:src="@drawable/whyhku"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

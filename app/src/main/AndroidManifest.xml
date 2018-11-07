@@ -30,7 +30,15 @@
         <activity android:name=".Environment" />
         <activity android:name=".Link" />
         <activity android:name=".Event" />
-        <activity android:name=".News"></activity>
+        <activity android:name=".News" />
+        <activity android:name=".ab_mess" />
+        <activity android:name=".ab_faculty" />
+        <activity android:name=".ad_1" />
+        <activity android:name=".ad_2" />
+        <activity android:name=".ad_3" />
+        <activity android:name=".ad_4" />
+        <activity android:name=".ad_5" />
+        <activity android:name=".ad_6"></activity>
     </application>
 
 </manifest>
