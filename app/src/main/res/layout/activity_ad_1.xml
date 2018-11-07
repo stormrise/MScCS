@@ -24,8 +24,7 @@
             android:layout_marginTop="8dp"
             android:text="Eligibility"
             android:textColor="#050404"
-            android:textAlignment="center"
-            android:gravity="center"
+            android:gravity="left"
             android:textSize="32dp"
             android:textStyle="bold|italic" />
 
@@ -60,8 +59,7 @@
             android:layout_marginTop="8dp"
             android:text="English Language Proficiency Requirement"
             android:textColor="#050404"
-            android:textAlignment="center"
-            android:gravity="center"
+            android:gravity="left"
             android:textSize="32dp"
             android:textStyle="bold|italic" />
 
@@ -100,8 +98,7 @@
             android:layout_marginTop="8dp"
             android:text="Regulations' Links"
             android:textColor="#050404"
-            android:textAlignment="center"
-            android:gravity="center"
+            android:gravity="left"
             android:textSize="32dp"
             android:textStyle="bold|italic" />
 

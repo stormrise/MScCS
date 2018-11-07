@@ -24,8 +24,7 @@
             android:layout_marginTop="8dp"
             android:text="Application Procedures"
             android:textColor="#050404"
-            android:textAlignment="center"
-            android:gravity="center"
+            android:gravity="left"
             android:textSize="32dp"
             android:textStyle="bold|italic" />
 
@@ -101,8 +100,7 @@
             android:layout_marginTop="8dp"
             android:text=" Application Fee"
             android:textColor="#050404"
-            android:textAlignment="center"
-            android:gravity="center"
+            android:gravity="left"
             android:textSize="32dp"
             android:textStyle="bold|italic" />
 

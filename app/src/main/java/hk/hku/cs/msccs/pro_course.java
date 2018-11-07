@@ -1,5 +1,6 @@
 package hk.hku.cs.msccs;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.Color;
 import android.net.Uri;
@@ -24,6 +25,7 @@ import java.util.List;
 import static android.graphics.Color.GRAY;
 
 public class pro_course extends AppCompatActivity {
+    @SuppressLint("StaticFieldLeak")
     private static ImageView course;
     private  static SmartTable table;  //使用smarttable构建表格
 

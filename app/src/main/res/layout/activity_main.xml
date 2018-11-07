@@ -12,9 +12,13 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
+        android:longClickable="true"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
-        app:popupTheme="@style/ThemeOverlay.MaterialComponents.Light"/>
+        android:visibility="visible"
+        app:logo="@drawable/logo2"
+        app:logoDescription="MSc"
+        app:popupTheme="@style/ThemeOverlay.MaterialComponents.Light" />
 
     <android.support.v4.view.ViewPager
         android:id="@+id/vp"
