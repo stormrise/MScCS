@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -23,16 +24,18 @@
             android:layout_gravity="left"
             android:background="@android:color/darker_gray"
             android:text="Home > Curriculum > Programme Overview"
-            android:textSize="20dp"/>
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded" />
         
         <TextView
             android:id="@+id/pro_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
             android:layout_marginTop="8dp"
             android:text="Programme Overview"
-            android:textSize="32dp"
+            android:textSize="32sp"
             android:textColor="#050404"
             android:textStyle="bold|italic"
             />
@@ -42,13 +45,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="8dp"
             android:singleLine="false"
             android:text="The MSc(CompSc) programme is a comprehensive postgraduate study programme provides advanced and in-depth learning in Computer Science. The programme is credit unit based, with courses of both applied and fundamental nature."
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:textColor="#050404"
             android:background="@android:color/background_light"
-            android:gravity="left"
             />
 
         <TextView
@@ -56,13 +59,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="8dp"
             android:singleLine="false"
             android:text="Students can choose focussed streams of study or a comprehensive and diversified study in Computer Science, i.e. the General Stream."
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:textColor="#050404"
             android:background="@android:color/background_light"
-            android:gravity="left"
             />
 
         <TextView
@@ -70,23 +73,24 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="8dp"
             android:singleLine="false"
             android:text="Focussed streams of study represent a cohesive collection of related courses that provides both fundamental and in-depth exposure to students in a given ICT domain.  Students can extend and deepen their knowledge in the specialization streams in Cyber Security, Multimedia Computing and Financial Computing. "
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:textColor="#050404"
             android:background="@android:color/background_light"
-            android:gravity="left"
             />
 
         <TextView
             android:id="@+id/pro_stream"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
             android:layout_marginTop="10dp"
             android:text="Stream of Study"
-            android:textSize="32dp"
+            android:textSize="32sp"
             android:textColor="#050404"
             android:textStyle="bold|italic"
             />
@@ -102,7 +106,7 @@
             android:foreground="?android:attr/selectableItemBackground"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
-           >
+            android:focusable="true">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -122,7 +126,7 @@
                     android:text="Cyber Security"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/cyber_intro"
@@ -150,7 +154,7 @@
             android:foreground="?android:attr/selectableItemBackground"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
-            >
+            android:focusable="true">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -171,7 +175,7 @@
                     android:text="Multimedia Computing"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/mc_intro"
@@ -203,7 +207,7 @@ Students are encouraged to develop innovative ideas using the latest development
             android:foreground="?android:attr/selectableItemBackground"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
-            >
+            android:focusable="true">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -225,7 +229,7 @@ Students are encouraged to develop innovative ideas using the latest development
                     android:text="Financial Computing"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/fc_intro"
@@ -253,7 +257,7 @@ Students are encouraged to develop innovative ideas using the latest development
             android:foreground="?android:attr/selectableItemBackground"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
-            >
+            android:focusable="true">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -273,14 +277,13 @@ Students are encouraged to develop innovative ideas using the latest development
                     android:text="General"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/general_intro"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="The General Stream covers a broad, comprehensive range of Computer Science subjects, including a wide range of courses from which students can choose from. It offers students the most flexibility to design their own study portfolio based on their career aspiration or requirements."
-                    android:gravity="left"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginEnd="8dp"
@@ -293,10 +296,11 @@ Students are encouraged to develop innovative ideas using the latest development
             android:id="@+id/pro_pattern"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
             android:layout_marginTop="10dp"
             android:text="Pattern of Study"
-            android:textSize="32dp"
+            android:textSize="32sp"
             android:textColor="#050404"
             android:textStyle="bold|italic"
             />
@@ -305,23 +309,24 @@ Students are encouraged to develop innovative ideas using the latest development
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="8dp"
             android:singleLine="false"
             android:text="Students are required to complete 72 credits, of which 48 credits from courses (equivalent to eight 6-credit courses) plus a dissertation (equivalent to 24 credits)."
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:textColor="#050404"
             android:background="@android:color/background_light"
-            android:gravity="left"
             />
 
         <TextView
             android:id="@+id/pro_selection"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
             android:layout_marginTop="10dp"
             android:text="Selection of Course"
-            android:textSize="32dp"
+            android:textSize="32sp"
             android:textColor="#050404"
             android:textStyle="bold|italic"
             />
@@ -330,39 +335,39 @@ Students are encouraged to develop innovative ideas using the latest development
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="8dp"
             android:singleLine="false"
             android:text="Students of Cyber Security, Multimedia Computing, or Financial Computing Stream are required to select a minimum of 24 credits of stream specific courses (equivalent to four 6-credit courses) in the corresponding subject group, and undertake a dissertation in the area of the corresponding stream."
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:textColor="#050404"
             android:background="@android:color/background_light"
-            android:gravity="left"
             />
         <TextView
             android:id="@+id/selection_content_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="8dp"
             android:singleLine="false"
             android:text="For General Stream, students can choose 48 credits of courses (equivalent to eight 6-credit courses) from any stream and subject group in the curriculum, and undertake a dissertation in any area in computer science."
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:textColor="#050404"
             android:background="@android:color/background_light"
-            android:gravity="left"
             />
         <TextView
             android:id="@+id/selection_content_3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="8dp"
             android:singleLine="false"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:text="In addition to the list of MSc(CompSc) courses for students to choose from, students may select no more than 12 credits of courses (equivalent to two 6-credit courses) from the syllabuses for the degrees of MSc(ECom and IComp) and MSc(Eng), subject to the approval of the Head of the Department of Computer Science.  Details of courses from MSc(ECom and IComp) can be found in this website: https://www.ecom-icom.hku.hk."
             android:textColor="#050404"
             android:background="@android:color/background_light"
-            android:gravity="left"
             android:autoLink="web"
             />
 
@@ -371,10 +376,11 @@ Students are encouraged to develop innovative ideas using the latest development
             android:id="@+id/pro_dissertation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
             android:layout_marginTop="10dp"
             android:text="Capstone Experience – Dissertations"
-            android:textSize="32dp"
+            android:textSize="32sp"
             android:textColor="#050404"
             android:textStyle="bold|italic"
             />
@@ -383,13 +389,13 @@ Students are encouraged to develop innovative ideas using the latest development
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="8dp"
             android:singleLine="false"
             android:text="The capstone experience will definitely be beneficial for students to put together what they have learnt in the programme and demonstrate a deeper understanding of the knowledge they have acquired. Students are required to complete a dissertation (24 credits) and attend some supplementary workshops. The dissertation would represent students’ consolidated capstone experience in their study."
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:textColor="#050404"
             android:background="@android:color/background_light"
-            android:gravity="left"
             android:layout_marginBottom="30dp"/>
 
 
