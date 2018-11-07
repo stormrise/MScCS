@@ -6,42 +6,42 @@
     android:layout_height="match_parent"
     tools:context=".HomeFragment">
 
-    <ImageView
-        android:id="@+id/logo2"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:background="@android:color/darker_gray"
-        android:src="@drawable/logo2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <!--<ImageView-->
+        <!--android:id="@+id/logo2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:background="@android:color/darker_gray"-->
+        <!--android:src="@drawable/logo2"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent" />-->
 
     <!--banner一些参数，指示器indicator放右边，文字大小以及位置-->
     <cn.bingoogolapple.bgabanner.BGABanner
         android:id="@+id/banner"
         android:layout_width="0dp"
         android:layout_height="200dp"
+        android:background="@android:color/darker_gray"
         android:clickable="true"
         android:foreground="?android:attr/selectableItemBackground"
-        android:background="@android:color/darker_gray"
-        android:src="@drawable/home_slider1"
         android:scaleType="centerCrop"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/logo2"
-        app:banner_pageChangeDuration="1800"
+        android:src="@drawable/home_slider1"
         app:banner_indicatorGravity="right"
+        app:banner_pageChangeDuration="1800"
         app:banner_pointAutoPlayAble="true"
         app:banner_pointContainerBackground="@android:color/transparent"
         app:banner_pointDrawable="@drawable/bga_banner_selector_point_hollow"
         app:banner_pointTopBottomMargin="6dp"
         app:banner_tipTextSize="12sp"
-        app:banner_transitionEffect="alpha"/>
+        app:banner_transitionEffect="alpha"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo2" />
 
 
     <TextView
         android:id="@+id/banner_text"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="香港大學計算機系 歡迎您加入"
         android:textColor="@android:color/black"
@@ -59,7 +59,7 @@
         android:layout_width="180dp"
         android:layout_height="160dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="32dp"
         android:clickable="true"
         android:foreground="?android:attr/selectableItemBackground"
         app:cardCornerRadius="8dp"
@@ -95,7 +95,7 @@
         android:id="@+id/home_card_view2"
         android:layout_width="180dp"
         android:layout_height="160dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
         android:clickable="true"
         android:foreground="?android:attr/selectableItemBackground"

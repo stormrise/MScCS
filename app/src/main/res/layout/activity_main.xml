@@ -14,7 +14,9 @@
         android:background="?attr/colorPrimary"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
-        app:popupTheme="@style/ThemeOverlay.MaterialComponents.Light"/>
+        android:visibility="visible"
+        app:logo="@drawable/logo2"
+        app:popupTheme="@style/ThemeOverlay.MaterialComponents.Light" />
 
     <android.support.v4.view.ViewPager
         android:id="@+id/vp"

@@ -31,78 +31,78 @@
 
 
     <android.support.v7.widget.CardView
-            android:id="@+id/curr_view1"
-            android:layout_width="180dp"
-            android:layout_height="160dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="40dp"
-            android:clickable="true"
-            android:foreground="?android:attr/selectableItemBackground"
-            app:cardCornerRadius="8dp"
-            app:cardElevation="8dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/banner_text">
+        android:id="@+id/curr_view1"
+        android:layout_width="180dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/banner_text">
 
-            <LinearLayout
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/curr_view1_img"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:layout_height="135dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/logo_blue" />
 
-                <ImageView
-                    android:id="@+id/curr_view1_img"
-                    android:layout_width="match_parent"
-                    android:layout_height="110dp"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/logo_blue" />
-
-                <TextView
-                    android:id="@+id/curr_view1_text"
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:text="Programme Overview"
-                    android:textAlignment="center"
-                    android:textColor="@android:color/black"
-                    android:textSize="18sp" />
-
-            </LinearLayout>
-        </android.support.v7.widget.CardView>
-
-        <android.support.v7.widget.CardView
-            android:id="@+id/curr__view2"
-            android:layout_width="180dp"
-            android:layout_height="160dp"
-            android:layout_marginTop="40dp"
-            android:layout_marginEnd="16dp"
-            android:clickable="true"
-            android:foreground="?android:attr/selectableItemBackground"
-            app:cardCornerRadius="8dp"
-            app:cardElevation="8dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/banner_text">
-
-            <LinearLayout
+            <TextView
+                android:id="@+id/curr_view1_text"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:layout_height="wrap_content"
+                android:text="Programme Overview"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
 
-                <ImageView
-                    android:id="@+id/curr_view2_img"
-                    android:layout_width="match_parent"
-                    android:layout_height="110dp"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/logo_blue" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
 
-                <TextView
-                    android:id="@+id/curr_view2_text"
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:text="Courses"
-                    android:textAlignment="center"
-                    android:textColor="@android:color/black"
-                    android:textSize="18sp" />
+    <android.support.v7.widget.CardView
+        android:id="@+id/curr__view2"
+        android:layout_width="180dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/banner_text">
 
-            </LinearLayout>
-        </android.support.v7.widget.CardView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/curr_view2_img"
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/logo_blue" />
+
+            <TextView
+                android:id="@+id/curr_view2_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Courses"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
             android:id="@+id/curr_view3"
@@ -172,7 +172,7 @@
                     android:layout_height="50dp"
                     android:text="Regulations and Syllabus"
                     android:textAlignment="center"
-                    android:textColor="#FCAD03"
+                    android:textColor="@android:color/black"
                     android:textSize="18sp" />
 
             </LinearLayout>
