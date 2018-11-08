@@ -24,7 +24,8 @@
             android:layout_gravity="left"
             android:background="@android:color/darker_gray"
             android:text="Home > About > Message"
-            android:textSize="20dp"/>
+            android:textStyle="italic"
+            android:textSize="20sp"/>
 
         <android.support.v7.widget.CardView
             android:id="@+id/mess_card_view1"

@@ -4,17 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools">
     <item
         android:id="@+id/call"
-        android:icon="@android:drawable/ic_menu_call"
+        android:icon="@drawable/too_call"
+        android:iconTint="@color/colorGrey"
+        android:iconTintMode="src_in"
         android:title="Call"
         app:showAsAction="always" />
     <item
         android:id="@+id/mail"
-        android:icon="@android:drawable/sym_action_email"
+        android:icon="@drawable/too_mail"
+        android:iconTint="@color/colorGrey"
         android:title="Mail"
         app:showAsAction="always" />
     <item
         android:id="@+id/place"
-        android:icon="@android:drawable/ic_menu_myplaces"
+        android:icon="@drawable/foo_map"
+        android:iconTint="@color/colorGrey"
         android:title="Item"
         app:showAsAction="always" />
 
