@@ -62,11 +62,28 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
         initBanner();
 
         //点击事件
-        bannerImage.setOnClickListener(this);
+        //bannerImage.setOnClickListener(this);
         cardimg1.setOnClickListener(this);
         cardimg2.setOnClickListener(this);
         cardimg3.setOnClickListener(this);
         cardimg4.setOnClickListener(this);
+
+        //banner 点击事件
+        bannerImage.setDelegate(new BGABanner.Delegate<ImageView, String>() {
+            @Override
+            public void onBannerItemClick(BGABanner banner, ImageView itemView, String model, int position) {
+                //Toast.makeText(banner.getContext(), "点击了" + position, Toast.LENGTH_SHORT).show();
+                switch (position){
+                    case 0:
+
+                        break;
+                    case 1:
+                        Intent intent_0=new Intent(itemView.getContext(),ad_1.class);
+                        startActivity(intent_0);
+                        break;
+                }
+            }
+        });
 
 
     }
@@ -75,17 +92,18 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
     public void onClick(View v) {   //点击事件响应
         switch (v.getId()){
 //            case R.id.banner:
-//            //点击banner，另一种方法，可重新构造
-//                if(count%2==1){
-//                    bannerText.setText("Department of Computer Science 香港大學計算機系");
-//                    Glide.with(bannerImage.getContext()).load("https://www.msc-cs.hku.hk/Media/Default/Slider%20Images/Slider1.jpg").into(bannerImage);
-//                    count++;
-//                }else {
-//                    bannerText.setText("Master of Science in Computer Science 計算機科學理科碩士課程");
-//                    Glide.with(bannerImage.getContext()).load("https://www.msc-cs.hku.hk/Media/Default/Slider%20Images/Slider_Admission.jpg").into(bannerImage);
-//                    count++;
-//                }
-//
+////            //点击banner，另一种方法，可重新构造
+////                if(count%2==1){
+////                    bannerText.setText("Department of Computer Science 香港大學計算機系");
+////                    Glide.with(bannerImage.getContext()).load("https://www.msc-cs.hku.hk/Media/Default/Slider%20Images/Slider1.jpg").into(bannerImage);
+////                    count++;
+////                }else {
+////                    bannerText.setText("Master of Science in Computer Science 計算機科學理科碩士課程");
+////                    Glide.with(bannerImage.getContext()).load("https://www.msc-cs.hku.hk/Media/Default/Slider%20Images/Slider_Admission.jpg").into(bannerImage);
+////                    count++;
+////                }
+//                Intent intent_0=new Intent(getContext(),ad_1.class);
+//                startActivity(intent_0);
 //                break;
             case R.id.home_card_view1_image:
                 Intent intent_1=new Intent(getContext(),ProOverview.class);

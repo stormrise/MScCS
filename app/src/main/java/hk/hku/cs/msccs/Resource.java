@@ -18,22 +18,22 @@ public class Resource extends AppCompatActivity implements View.OnClickListener{
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.environment_img:
-                Toast.makeText(this,"You clicked the picture",Toast.LENGTH_SHORT).show();
+                //Toast.makeText(this,"You clicked the picture",Toast.LENGTH_SHORT).show();
                 Intent intent_1=new Intent(this,Environment.class);
                 startActivity(intent_1);
                 break;
             case R.id.environment_title:
-                Toast.makeText(this,"You clicked the text",Toast.LENGTH_SHORT).show();
+                //Toast.makeText(this,"You clicked the text",Toast.LENGTH_SHORT).show();
                 Intent intent_2=new Intent(this,Environment.class);
                 startActivity(intent_2);
                 break;
             case R.id.link_img:
-                Toast.makeText(this,"You clicked the picture",Toast.LENGTH_SHORT).show();
+                //Toast.makeText(this,"You clicked the picture",Toast.LENGTH_SHORT).show();
                 Intent intent_3=new Intent(this,Link.class);
                 startActivity(intent_3);
                 break;
             case R.id.link_title:
-                Toast.makeText(this,"You clicked the text",Toast.LENGTH_SHORT).show();
+                //Toast.makeText(this,"You clicked the text",Toast.LENGTH_SHORT).show();
                 Intent intent_4=new Intent(this,Link.class);
                 startActivity(intent_4);
                 break;
