@@ -16,9 +16,16 @@
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         android:visibility="visible"
-        app:logo="@drawable/logo2"
         app:logoDescription="MSc"
-        app:popupTheme="@style/ThemeOverlay.MaterialComponents.Light" />
+        app:popupTheme="@style/ThemeOverlay.MaterialComponents.Light" >
+
+        <ImageView
+            android:id="@+id/logo2"
+            android:layout_width="68dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo2"
+            android:foregroundGravity="left"/>
+    </android.support.v7.widget.Toolbar>
 
     <android.support.v4.view.ViewPager
         android:id="@+id/vp"
