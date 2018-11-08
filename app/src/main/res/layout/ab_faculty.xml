@@ -41,6 +41,78 @@
             android:textStyle="bold|italic" />
 
 
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/faculty_4"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/faculty_4_image"
+                    android:layout_width="150dp"
+                    android:layout_height="130dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/chowkp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/faculty_4_text1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dr. Chow K.P."
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="30dp" />
+
+                    <TextView
+                        android:id="@+id/faculty_4_text2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PhD (UC Santa Barbara)\n
+Field of Research\n
+Computer Forensics, Digital Investigation, Data Privacy, Computer Security"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:id="@+id/faculty_4_text3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="20dp"
+                        android:singleLine="false"
+                        android:text="chow@cs.hku.hk"
+                        android:textSize="20dp"
+                        android:textColor="#050404"
+                        android:background="@android:color/background_light"
+                        android:gravity="center"
+                        android:autoLink="email"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
         <android.support.v7.widget.CardView
             android:id="@+id/faculty_9"
             android:layout_width="match_parent"
@@ -466,76 +538,6 @@ Operating Systems, Virtual Machines, Cloud Computing"
 
         </android.support.v7.widget.CardView>
 
-
-
-        <android.support.v7.widget.CardView
-            android:id="@+id/faculty_4"
-            android:layout_width="match_parent"
-            android:layout_height="220dp"
-            android:layout_marginStart="15dp"
-            android:layout_marginTop="15dp"
-            android:layout_marginEnd="15dp"
-            android:clickable="true"
-            android:foreground="?android:attr/selectableItemBackground"
-            app:cardCornerRadius="8dp"
-            app:cardElevation="8dp"
-            >
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:id="@+id/faculty_4_image"
-                    android:layout_width="150dp"
-                    android:layout_height="130dp"
-                    android:layout_gravity="center"
-                    android:src="@drawable/chowkp" />
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/faculty_4_text1"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Dr. Chow K.P."
-                        android:textAlignment="center"
-                        android:textColor="@android:color/black"
-                        android:textSize="30dp" />
-
-                    <TextView
-                        android:id="@+id/faculty_4_text2"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="PhD (UC Santa Barbara)\n
-Field of Research\n
-Computer Forensics, Digital Investigation, Data Privacy, Computer Security"
-                        android:textAlignment="center"
-                        android:textColor="@android:color/black"
-                        android:textSize="20dp" />
-                    <TextView
-                        android:id="@+id/faculty_4_text3"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
-                        android:layout_marginLeft="20dp"
-                        android:singleLine="false"
-                        android:text="chow@cs.hku.hk"
-                        android:textSize="20dp"
-                        android:textColor="#050404"
-                        android:background="@android:color/background_light"
-                        android:gravity="center"
-                        android:autoLink="email"/>
-
-                </LinearLayout>
-
-
-            </LinearLayout>
-
-        </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
             android:id="@+id/faculty_5"
