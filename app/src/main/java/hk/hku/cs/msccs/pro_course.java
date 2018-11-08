@@ -22,12 +22,10 @@ import com.bumptech.glide.Glide;
 import java.util.ArrayList;
 import java.util.List;
 
-import static android.graphics.Color.GRAY;
-
 public class pro_course extends AppCompatActivity {
     @SuppressLint("StaticFieldLeak")
     private static ImageView course;
-    private  static SmartTable table;  //使用smarttable构建表格
+    private  static SmartTable<Course_table> table;  //使用smarttable构建表格
 
 
     @Override
@@ -38,7 +36,7 @@ public class pro_course extends AppCompatActivity {
         Glide.with(course.getContext())
                 .load("https://www.msc-cs.hku.hk/Media/Default/ContentImages/Curriculum.jpg")
                 .into(course);
-        table=(SmartTable) findViewById(R.id.table);
+        table= findViewById(R.id.table);
         List<Course_table> list=new ArrayList<>();  //装载课程名字
         list.add(new Course_table("Cyber Security", "COMP7806  Topic in information security"));
         list.add(new Course_table("Cyber Security", "COMP7901  Legal protection of digital property #"));
