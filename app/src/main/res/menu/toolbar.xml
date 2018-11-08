@@ -17,7 +17,7 @@
         app:showAsAction="always" />
     <item
         android:id="@+id/place"
-        android:icon="@drawable/foo_map"
+        android:icon="@drawable/too_map"
         android:iconTint="@color/colorGrey"
         android:title="Item"
         app:showAsAction="always" />
