@@ -17,11 +17,24 @@
             android:src="@drawable/application" />
 
         <TextView
+            android:id="@+id/banner_text5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:text="Home > Admission >Information Sessions"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/logo2" />
+
+        <TextView
             android:id="@+id/ad5_t1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
             android:singleLine="false"
             android:text="  \n\nJoin us at the information sessions, and find out if the Master of Science in Computer Science Programme is the right fit for your career goals. Information Sessions include a programme overview and QA, plus the opportunity to talk informally with Programme Director and staff. Potential applicants are welcome.
 

@@ -15,6 +15,18 @@
             android:layout_height="75dp"
             android:scaleType="centerCrop"
             android:src="@drawable/application" />
+
+        <TextView
+            android:id="@+id/banner_text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:text="Home > Admission > Composition Fees"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/logo2" />
         <TextView
             android:id="@+id/ad3_t1"
             android:layout_width="match_parent"
@@ -32,6 +44,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
             android:singleLine="false"
             android:text=" \nThe composition fee for each 6 credit-units in MSc(CompSc) is HK$13,000*.
              \n\nThe dissertation, which is equivalent to 24 credits, has a composition fee of HK$52,000*.

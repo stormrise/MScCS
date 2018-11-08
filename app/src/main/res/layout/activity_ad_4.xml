@@ -16,11 +16,23 @@
             android:scaleType="centerCrop"
             android:src="@drawable/application" />
         <TextView
+            android:id="@+id/banner_text4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:text="Home > Admission > Words"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/logo2" />
+        <TextView
             android:id="@+id/ad2_t2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
             android:singleLine="false"
             android:text="  \n\nWhen you enrol in the MSc(CompSc) Programme, you gain all the advantages of a famous university with an outstanding reputation.\n\n When you leave our Programme, you will have a solid foundation in the theoretical aspect of computer science, together with hands-on technical experience in information technology, to help you begin a rewarding career.
 

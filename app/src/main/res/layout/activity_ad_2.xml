@@ -16,6 +16,18 @@
             android:layout_height="75dp"
             android:scaleType="centerCrop"
             android:src="@drawable/application" />
+
+        <TextView
+            android:id="@+id/banner_text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:text="Home > Admission > Application Procedures"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/logo2" />
         <TextView
             android:id="@+id/ad2_t1"
             android:layout_width="match_parent"
@@ -34,6 +46,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
             android:singleLine="false"
             android:text="Applicants can submit their application via the online application system by clicking the following link."
             android:textSize="20dp"
@@ -63,6 +76,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
             android:singleLine="false"
             android:text="  The following supporting documents should be uploaded to the online application system before the application deadline or expiry of your application account (which is valid for four weeks only), whichever is earlier:
 
@@ -109,6 +123,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
             android:singleLine="false"
             android:text="The application fee is HK$300 (non-refundable), paid by credit card online.\n\n"
             android:textSize="20dp"
