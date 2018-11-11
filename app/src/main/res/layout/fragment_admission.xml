@@ -30,9 +30,9 @@
     <android.support.v7.widget.CardView
         android:id="@+id/admission_1"
         android:layout_width="180dp"
-        android:layout_height="135dp"
+        android:layout_height="145dp"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="4dp"
         android:clickable="true"
         android:focusable="true"
@@ -51,9 +51,19 @@
             <ImageView
                 android:id="@+id/admission_1_img"
                 android:layout_width="match_parent"
-                android:layout_height="135dp"
+                android:layout_height="120dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/admssion1" />
+
+            <TextView
+                android:id="@+id/admission_1_txt"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Admission Requirements"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
 
         </LinearLayout>
     </android.support.v7.widget.CardView>
@@ -61,9 +71,9 @@
     <android.support.v7.widget.CardView
         android:id="@+id/admission_2"
         android:layout_width="180dp"
-        android:layout_height="135dp"
+        android:layout_height="145dp"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="4dp"
         android:clickable="true"
         android:focusable="true"
@@ -82,9 +92,18 @@
             <ImageView
                 android:id="@+id/admission_2_img"
                 android:layout_width="match_parent"
-                android:layout_height="135dp"
+                android:layout_height="120dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/admssion2" />
+
+            <TextView
+                android:id="@+id/admission_2_txt"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Application Procedures"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
 
         </LinearLayout>
     </android.support.v7.widget.CardView>
@@ -92,7 +111,7 @@
     <android.support.v7.widget.CardView
         android:id="@+id/admission_3"
         android:layout_width="180dp"
-        android:layout_height="135dp"
+        android:layout_height="145dp"
         android:layout_marginStart="4dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="4dp"
@@ -113,9 +132,17 @@
             <ImageView
                 android:id="@+id/admission_3_img"
                 android:layout_width="match_parent"
-                android:layout_height="135dp"
+                android:layout_height="120dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/admssion3" />
+            <TextView
+                android:id="@+id/admission_3_txt"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Composition Fees"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
 
         </LinearLayout>
     </android.support.v7.widget.CardView>
@@ -123,7 +150,7 @@
     <android.support.v7.widget.CardView
         android:id="@+id/admission_4"
         android:layout_width="180dp"
-        android:layout_height="135dp"
+        android:layout_height="145dp"
         android:layout_marginStart="4dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="4dp"
@@ -144,9 +171,18 @@
             <ImageView
                 android:id="@+id/admission_4_img"
                 android:layout_width="match_parent"
-                android:layout_height="135dp"
+                android:layout_height="120dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/admssion4" />
+
+            <TextView
+                android:id="@+id/admission_4_txt"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Words from Students"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
 
         </LinearLayout>
     </android.support.v7.widget.CardView>
@@ -154,7 +190,7 @@
     <android.support.v7.widget.CardView
         android:id="@+id/admission_5"
         android:layout_width="180dp"
-        android:layout_height="135dp"
+        android:layout_height="145dp"
         android:layout_marginStart="4dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="4dp"
@@ -175,9 +211,18 @@
             <ImageView
                 android:id="@+id/admission_5_img"
                 android:layout_width="match_parent"
-                android:layout_height="135dp"
+                android:layout_height="120dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/admssion5" />
+
+            <TextView
+                android:id="@+id/admission_5_txt"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Information Sessions"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
 
         </LinearLayout>
     </android.support.v7.widget.CardView>
@@ -185,7 +230,7 @@
     <android.support.v7.widget.CardView
         android:id="@+id/admission_6"
         android:layout_width="180dp"
-        android:layout_height="135dp"
+        android:layout_height="145dp"
         android:layout_marginStart="4dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="4dp"
@@ -206,9 +251,18 @@
             <ImageView
                 android:id="@+id/admission_6_img"
                 android:layout_width="match_parent"
-                android:layout_height="135dp"
+                android:layout_height="120dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/admssion6" />
+
+            <TextView
+                android:id="@+id/admission_6_txt"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="FAQs"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
 
         </LinearLayout>
     </android.support.v7.widget.CardView>
