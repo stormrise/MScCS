@@ -61,11 +61,13 @@
         android:layout_height="160dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
         android:clickable="true"
         android:focusable="true"
         android:foreground="?android:attr/selectableItemBackground"
         app:cardCornerRadius="8dp"
         app:cardElevation="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/home_card_view2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/banner_text">
 
@@ -97,6 +99,7 @@
         android:id="@+id/home_card_view2"
         android:layout_width="180dp"
         android:layout_height="160dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
         android:clickable="true"
@@ -105,6 +108,7 @@
         app:cardCornerRadius="8dp"
         app:cardElevation="8dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/home_card_view1"
         app:layout_constraintTop_toBottomOf="@+id/banner_text">
 
         <LinearLayout
@@ -137,11 +141,13 @@
         android:layout_height="160dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
         android:clickable="true"
         android:focusable="true"
         android:foreground="?android:attr/selectableItemBackground"
         app:cardCornerRadius="8dp"
         app:cardElevation="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/home_card_view4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/home_card_view1">
 
@@ -173,6 +179,7 @@
         android:id="@+id/home_card_view4"
         android:layout_width="180dp"
         android:layout_height="160dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:clickable="true"
@@ -181,6 +188,7 @@
         app:cardCornerRadius="8dp"
         app:cardElevation="8dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/home_card_view3"
         app:layout_constraintTop_toBottomOf="@+id/home_card_view2">
 
         <LinearLayout
