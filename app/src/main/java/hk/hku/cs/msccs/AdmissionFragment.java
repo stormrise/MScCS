@@ -75,6 +75,15 @@ public class AdmissionFragment extends Fragment implements View.OnClickListener 
         img_card4=(ImageView)getActivity().findViewById(R.id.admission_4_img);
         img_card5=(ImageView)getActivity().findViewById(R.id.admission_5_img);
         img_card6=(ImageView)getActivity().findViewById(R.id.admission_6_img);
+
+        //设置图片
+//        Glide.with(img_card1.getContext()).load("https://unsplash.com/photos/RLw-UC03Gwc").into(img_card1);
+//        Glide.with(img_card2.getContext()).load("https://www.msc-cs.hku.hk/Media/Default/ContentImages/ApplicationDeadlines.jpg").into(img_card2);
+//        Glide.with(img_card3.getContext()).load("https://www.msc-cs.hku.hk/Media/Default/ContentImages/ProgrammeFees.jpg").into(img_card3);
+//        Glide.with(img_card4.getContext()).load("https://www.msc-cs.hku.hk/Media/Default/ContentImages/ApplicationDeadlines.jpg").into(img_card4);
+//        Glide.with(img_card5.getContext()).load("https://www.msc-cs.hku.hk/Media/Default/ContentImages/ProgrammeFees.jpg").into(img_card5);
+//        Glide.with(img_card6.getContext()).load("https://www.msc-cs.hku.hk/Media/Default/ContentImages/ApplicationDeadlines.jpg").into(img_card6);
+
         //设置监听器
         img_card1.setOnClickListener(this);
         img_card2.setOnClickListener(this);

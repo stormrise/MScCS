@@ -11,6 +11,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
+
 
 public class AboutFragment extends Fragment implements View.OnClickListener{
     private final static String TAG = "About";
@@ -34,6 +36,10 @@ public class AboutFragment extends Fragment implements View.OnClickListener{
         //读取每个图片的text
         about_card_view1_text=(TextView)getActivity().findViewById(R.id.about_card_view1_text);
         about_card_view2_text=(TextView)getActivity().findViewById(R.id.about_card_view2_text);
+        //设置图片
+        Glide.with(about_card_view1_image.getContext()).load(R.drawable.ab_mes).into(about_card_view1_image);
+        Glide.with(about_card_view2_image.getContext()).load(R.drawable.ab_te).into(about_card_view2_image);
+
         //设置监听器
         about_card_view1_image.setOnClickListener(this);
         about_card_view2_image.setOnClickListener(this);
