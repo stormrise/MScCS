@@ -163,7 +163,7 @@ public class Vs extends AppCompatActivity {
         //设置表格样式
         table.getConfig().setContentStyle(new FontStyle(40, Color.BLUE));//文字样式
         table.getConfig().setColumnTitleStyle(new FontStyle(50, Color.YELLOW));//列名
-        table.getConfig().setTableTitleStyle(new FontStyle(60, Color.YELLOW));//表名
+        table.getConfig().setTableTitleStyle(new FontStyle(60, Color.rgb(242,156,56)));//表名
         //不显示行号和列号；
         table.getConfig().setShowXSequence(false);
         table.getConfig().setShowYSequence(false);
