@@ -19,8 +19,8 @@ import com.bumptech.glide.Glide;
 
 public class OtherFragment extends Fragment implements View.OnClickListener {
     private final static String TAG = "other";
-    private static ImageView other_title,alumni,news,event,resource;
-    private static TextView alumni_text,news_text,event_text,resource_text;
+    private static ImageView other_title,alumni,news,event,resource,vs;
+    private static TextView alumni_text,news_text,event_text,resource_text,vs_text;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -74,6 +74,16 @@ public class OtherFragment extends Fragment implements View.OnClickListener {
                 Intent intent_8=new Intent(getContext(),Resource.class);
                 startActivity(intent_8);
                 break;
+            case R.id.other_view5_img:
+                //Toast.makeText(getContext(),"You clicked the picture",Toast.LENGTH_SHORT).show();
+                Intent intent_9=new Intent(getContext(),Vs.class);
+                startActivity(intent_9);
+                break;
+            case R.id.other_view5_text:
+                //Toast.makeText(getContext(),"You clicked the text",Toast.LENGTH_SHORT).show();
+                Intent intent_10=new Intent(getContext(),Vs.class);
+                startActivity(intent_10);
+                break;
             default:
                 break;
         }
@@ -100,21 +110,31 @@ public class OtherFragment extends Fragment implements View.OnClickListener {
                 .load("https://www.msc-cs.hku.hk/Media/Default/ContentImages/MainLib.jpg")
                 .into(resource);
         news=(ImageView)getActivity().findViewById(R.id.other_view2_img);
-        Glide.with(event.getContext())
+        Glide.with(news.getContext())
                 .load("https://www.msc-cs.hku.hk/Media/Default/NewsEvents/2018-19/WelcomingReception2018-1.jpg")
                 .into(news);
+        vs= (ImageView)getActivity().findViewById(R.id.other_view5_img);
+        Glide.with(vs.getContext())
+                .load("https://www.msc-cs.hku.hk/Media/Default/NewsEvents/2018-19/WelcomingReception2018-1.jpg")
+                .into(vs);
+
         alumni_text=(TextView)getActivity().findViewById(R.id.other_view1_text);
         news_text=(TextView)getActivity().findViewById(R.id.other_view2_text);
         event_text=(TextView)getActivity().findViewById(R.id.other_view3_text);
         resource_text=(TextView)getActivity().findViewById(R.id.other_view4_text);
+        vs_text=(TextView)getActivity().findViewById(R.id.other_view5_text);
+
         alumni_text.setOnClickListener(this);
         news_text.setOnClickListener(this);
         event_text.setOnClickListener(this);
         resource_text.setOnClickListener(this);
+        vs_text.setOnClickListener(this);
+
         alumni.setOnClickListener(this);
         news.setOnClickListener(this);
         event.setOnClickListener(this);
         resource.setOnClickListener(this);
+        vs.setOnClickListener(this);
 
 
     }
