@@ -8,13 +8,18 @@ import android.widget.ImageView;
 
 import com.bin.david.form.annotation.SmartColumn;
 import com.bin.david.form.annotation.SmartTable;
+import com.bin.david.form.core.TableConfig;
+import com.bin.david.form.data.column.Column;
+import com.bin.david.form.data.column.ColumnInfo;
 import com.bin.david.form.data.style.FontStyle;
+import com.bin.david.form.listener.OnColumnClickListener;
+import com.bin.david.form.listener.OnColumnItemClickListener;
 import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Vs extends AppCompatActivity {
+public class Vs extends AppCompatActivity{
 
     @SmartTable(name = "VS Other School")
     public class School_table {
@@ -74,7 +79,7 @@ public class Vs extends AppCompatActivity {
                 "132,000 HKD",
                 "IELTS: a minimum overall band of 6 with no subtest lower than 5.5; or\n" +
                         "TOEFL: a score of 80 or above (internet-based test).",
-                ""));
+                "https://www.msc-cs.hku.hk/Curriculum/Courses"));
         list.add(new School_table(
                 "HKUST",
                 "Master of Science in Big Data Technology",
@@ -83,7 +88,7 @@ public class Vs extends AppCompatActivity {
                 "210,000 HKD",
                 "IELTS: a minimum overall band of 6.5 with no subtest lower than 5.5; or\n" +
                         "TOEFL: a score of 80 or above (internet-based test).",
-                ""));
+                "https://www.sengpp.ust.hk/programs/bdt/en/curriculum.html"));
         list.add(new School_table(
                 "HKUST",
                 "Master of Science in Information Technology",
@@ -92,7 +97,7 @@ public class Vs extends AppCompatActivity {
                 "147,000 HKD",
                 "IELTS: a minimum overall band of 6.5 with no subtest lower than 5.5; or\n" +
                         "TOEFL: a score of 80 or above (internet-based test).",
-                ""));
+                "https://www.sengpp.ust.hk/programs/it/en/curriculum.html"));
         list.add(new School_table(
                 "CUHK",
                 "Master of Science in Computer Science",
@@ -101,7 +106,7 @@ public class Vs extends AppCompatActivity {
                 "160,000 HKD",
                 "IELTS: a minimum overall band of 6.5; or\n" +
                         "TOEFL: a score of 79 or above (internet-based test).",
-                ""));
+                "http://www.cse.cuhk.edu.hk/en/education/courses/course-list/postgraduate-course-list"));
         list.add(new School_table(
                 "CUHK",
                 "Master of Science in Information Engineering",
@@ -110,7 +115,7 @@ public class Vs extends AppCompatActivity {
                 "140,000 HKD",
                 "IELTS: a minimum overall band of 6.5; or\n" +
                         "TOEFL: a score of 79 or above (internet-based test).",
-                ""));
+                "http://www.ie.cuhk.edu.hk/programmes/pg_courselist.shtml"));
         list.add(new School_table(
                 "CUHK",
                 "Master of Science in Information & Technology Management",
@@ -119,7 +124,7 @@ public class Vs extends AppCompatActivity {
                 "210,000 HKD",
                 "IELTS: a minimum overall band of 6.5; or\n" +
                         "TOEFL: a score of 79 or above (internet-based test).",
-                ""));
+                "https://masters.bschool.cuhk.edu.hk/programmes/mscitm/curriculum/"));
         list.add(new School_table(
                 "CityU",
                 "Master of Science in Computer Science",
@@ -129,7 +134,7 @@ public class Vs extends AppCompatActivity {
                 "CET6 450 or\n" +
                         "IELTS: a minimum overall band of 6.5; or\n" +
                         "TOEFL: a score of 79 or above (internet-based test).",
-                ""));
+                "https://www.cs.cityu.edu.hk/courses/mscs.html"));
         list.add(new School_table(
                 "CityU",
                 "Master of Science in Multimedia Information Technology",
@@ -139,7 +144,7 @@ public class Vs extends AppCompatActivity {
                 "CET6 450 or\n" +
                         "IELTS: a minimum overall band of 6.5; or\n" +
                         "TOEFL: a score of 79 or above (internet-based test).",
-                ""));
+                "http://www.ee.cityu.edu.hk/home/programmes_MScMIT_Curriculum.html#CourseList"));
         list.add(new School_table(
                 "PolyU",
                 "Master of Science in Information Technology",
@@ -148,7 +153,7 @@ public class Vs extends AppCompatActivity {
                 "132,000 HKD",
                 "IELTS: a minimum overall band of 6.0; or\n" +
                         "TOEFL: a score of 80 or above (internet-based test).",
-                ""));
+                "https://www.comp.polyu.edu.hk/en-us/prospective-students/taught-postgraduate-programmes"));
         list.add(new School_table(
                 "PolyU",
                 "Master of Science in Multimedia and Entertainment Technology",
@@ -157,7 +162,7 @@ public class Vs extends AppCompatActivity {
                 "151,200 HKD",
                 "IELTS: a minimum overall band of 6.0; or\n" +
                         "TOEFL: a score of 80 or above (internet-based test).",
-                ""));
+                "http://www.sd.polyu.edu.hk/en/study-detail/multimedia-and-entertainment-technology"));
 
         table.setData(list); //传入数据
         //设置表格样式
@@ -168,5 +173,9 @@ public class Vs extends AppCompatActivity {
         table.getConfig().setShowXSequence(false);
         table.getConfig().setShowYSequence(false);
         table.setBackgroundColor(Color.LTGRAY);
+
+        table.getConfig().setSequenceVerticalPadding(4);
+        table.getConfig().setSequenceHorizontalPadding(4);
+
     }
 }
