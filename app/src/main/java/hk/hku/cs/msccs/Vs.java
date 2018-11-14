@@ -4,17 +4,19 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.ImageView;
 
 import com.bin.david.form.annotation.SmartColumn;
 import com.bin.david.form.annotation.SmartTable;
 import com.bin.david.form.data.style.FontStyle;
+import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Vs extends AppCompatActivity {
 
-    @SmartTable(name = "VS Information")
+    @SmartTable(name = "VS Other School")
     public class School_table {
         School_table(String School,String major,String stream,String duration,String fee,String requirement, String Courselist){
             this.School=School;
@@ -26,7 +28,7 @@ public class Vs extends AppCompatActivity {
             this.Courselist=Courselist;
         }
 
-        @SmartColumn(id=1,name ="School",autoMerge = true)
+        @SmartColumn(id=1,name ="School",autoMerge = true,fixed = true)
         private String School;
 
         @SmartColumn(id=2,name="Major",align=Paint.Align.LEFT)
@@ -52,6 +54,11 @@ public class Vs extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vs);
+
+        ImageView vsImage = findViewById(R.id.vs_image);
+        Glide.with(vsImage.getContext())
+                .load(R.drawable.vs)
+                .into(vsImage);
 
         //使用smarttable构建表格
         com.bin.david.form.core.SmartTable<School_table> table = findViewById(R.id.table_vs);
@@ -159,7 +166,7 @@ public class Vs extends AppCompatActivity {
         table.getConfig().setTableTitleStyle(new FontStyle(60, Color.YELLOW));//表名
         //不显示行号和列号；
         table.getConfig().setShowXSequence(false);
-        table.getConfig().setShowYSequence(true);
+        table.getConfig().setShowYSequence(false);
         table.setBackgroundColor(Color.LTGRAY);
     }
 }

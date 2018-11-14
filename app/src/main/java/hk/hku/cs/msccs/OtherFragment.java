@@ -115,7 +115,7 @@ public class OtherFragment extends Fragment implements View.OnClickListener {
                 .into(news);
         vs= (ImageView)getActivity().findViewById(R.id.other_view5_img);
         Glide.with(vs.getContext())
-                .load("https://www.msc-cs.hku.hk/Media/Default/NewsEvents/2018-19/WelcomingReception2018-1.jpg")
+                .load(R.drawable.vs)
                 .into(vs);
 
         alumni_text=(TextView)getActivity().findViewById(R.id.other_view1_text);
