@@ -1,20 +1,23 @@
 # MScCS
-This is a course project for COMP7506
+> This is a course project for COMP7506
  
-@Copyright by: 
+> @Copyright by: 
  
- 
-
 
 # Introduction 
-test
+
+MSc-CS program information based on https://www.msc-cs.hku.hk/
+
 
 # Build
 
 ## Dependencies
 compileSdkVersion 28
+
 minSdkVersion 24
+
 targetSdkVersion 28
+
 
 
 Add following dependencies into `build.gradle`:
@@ -33,17 +36,21 @@ dependencies {
 }
 ```
 
-## Build
-test
 
 ## Build with Gradle
 
-test
+Use latest Android Studio 3.2.1 and gradle 4.6 (Time: Nov 2018)
 
 ## Install it into the AVD
-test
+
+Choose the Piexl 2 XL as the AVD, because the larger screen is the trend, and provide better view for this app.
 
 
+#Contributors 
+
+* Li Lingxiao
+* Wang 
+* Xiong 
 
 
 # TODO
