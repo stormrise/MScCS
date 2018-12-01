@@ -1,12 +1,23 @@
-# MScCS
+# The Mobile MSc (CS)
 > This is a course project for COMP7506
  
-> @Copyright by: 
- 
+> @Copyright by:
+>  
+>Li, Lingxiao
+>
+>Wang, Xichen
+
+>Xiong, Shanyu
+
 
 # Introduction 
 
 MSc-CS program information based on https://www.msc-cs.hku.hk/
+
+The Mobile MSc (CS) is an Android-based application for phones, which contains information about MSc (CS) programme. It was developed using Android Studio with a minimum API 24 and tested on the “Pixel 2 XL API 28” Android Virtual Device, also the Android phone ”XIAOMI MIX2”. 
+
+![图片 1.png](https://i.loli.net/2018/12/01/5c022e1601573.png)
+
 
 
 # Build
@@ -53,8 +64,25 @@ Choose the Piexl 2 XL as the AVD, because the larger screen is the trend, and pr
 * Xiong 
 
 
-# TODO
+#Main features
+## A navigation bar
+ The navigation bar contains four items about Programme Information, Admission, Curriculum and Other. Each item can lead visitor to a related page.
+ 
+ ![图片 1.png](https://i.loli.net/2018/12/01/5c022e1601573.png)
 
-1. 
 
+## Flat display using by cardview
+Each cardview contains image with introduction, and every of them is link to a page that contains related information for visitors to consult.
+
+![图片 2.png](https://i.loli.net/2018/12/01/5c022e1607146.png)
+
+## ToolBar help buttons
+On the top right corner of the app, we set three buttons to provide contact information about the MSc Programme Office.  Users can directly give a phone call, send an email or mail to the office if they want to get connect with the programme office.
+
+![图片 3.png](https://i.loli.net/2018/12/01/5c022e160421c.png)
+
+#Extra Feature
+we add a new page that contains the comparisons between CS major in different universities in Hong Kong to help visitors to choose their universities and get more information about those majors.
+
+![图片 4.png](https://i.loli.net/2018/12/01/5c022e15f2d1a.png)
 
