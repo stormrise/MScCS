@@ -57,14 +57,9 @@ Use latest Android Studio 3.2.1 and gradle 4.6 (Time: Nov 2018)
 Choose the Piexl 2 XL as the AVD, because the larger screen is the trend, and provide better view for this app.
 
 
-#Contributors 
 
-* Li Lingxiao
-* Wang 
-* Xiong 
+# Main features
 
-
-#Main features
 ## A navigation bar
  The navigation bar contains four items about Programme Information, Admission, Curriculum and Other. Each item can lead visitor to a related page.
  
